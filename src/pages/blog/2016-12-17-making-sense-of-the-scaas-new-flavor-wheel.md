@@ -10,8 +10,6 @@ featuredimage: /img/flavor_wheel.jpg
 tags:
   - flavor
   - tasting
-books:
-  - The Dud Avocado
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
 
