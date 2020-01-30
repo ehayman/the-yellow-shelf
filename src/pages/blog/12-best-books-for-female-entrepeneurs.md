@@ -7,6 +7,7 @@ featuredpost: true
 featuredimage: /img/287.jpeg
 tags:
   - Fiction
+  - Cultural > France
 books:
   - genres:
       - Short Stories
