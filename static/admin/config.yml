@@ -12,40 +12,11 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "book"
-    label: "Book"
-    folder: "src/pages/book"
-    create: true
-    slug: "{{slug}}-{{book-author}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "book-page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "bookauthor", widget: "string"}
-      - {label: "Publish Year", name: "publishyear", widget: "number"}
-      - {label: "Cover Image", name: "coverimage", widget: image}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Genres", name: "Genres", widget: "list"}
-      - {label: "Amazon Affiliate Link", name: "aalink", widget: "string"}
-      - {label: "Goodreads Rating", name: "goodreads", widget: "string"}
-      - {label: "ISBN", name: "ISBN", widget: "string"}
-  - name: "post"
-    label: "Post"
-    folder: "src/pages/post"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "post-page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Is Featured?", name: "isFeatured", widget: "boolean", required: false}
-      - {label: "Keywords", name: "keywords", widget: "list"}
-      - {label: "Intro", name: "intro", widget: "markdown"}
-      - {label: "Books", name: "books", widget: "relation", collection: "book", searchFields: ["title"], valueField: "title", multiple: true}
-      - {label: "Related Posts", name: "relatedPosts", widget: "relation", collection: "post", searchFields: ["title"], valueField: "title", multiple: true, required: false}
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -55,7 +26,19 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-
+      - label: "Books"
+        name: "books"
+        widget: "list"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "book-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Author", name: "bookauthor", widget: "string"}
+          - {label: "Publish Year", name: "publishyear", widget: "number"}
+          - {label: "Cover Image", name: "coverimage", widget: image}
+          - {label: "Description", name: "description", widget: "markdown"}
+          - {label: "Genres", name: "genres", widget: "list"}
+          - {label: "Amazon Affiliate Link", name: "aalink", widget: "string"}
+          - {label: "Goodreads Rating", name: "goodreads", widget: "string"}
   - name: "pages"
     label: "Pages"
     files:

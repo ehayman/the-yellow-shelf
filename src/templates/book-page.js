@@ -20,7 +20,7 @@ const BookPage = ({ data }) => {
   
     return (
       <Layout>
-        <AboutPageTemplate
+        <BookPageTemplate
           title={post.frontmatter.title}
         />
       </Layout>

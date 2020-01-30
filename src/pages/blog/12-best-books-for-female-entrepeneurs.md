@@ -8,7 +8,7 @@ featuredimage: /img/287.jpeg
 tags:
   - Fiction
 books:
-  - Genres:
+  - genres:
       - Short Stories
       - Fiction
     aalink: 'https://www.goodreads.com/book/show/22929586-a-manual-for-cleaning-women'
@@ -19,7 +19,7 @@ books:
     publishyear: 2015
     templateKey: book-page
     title: 'A Manual for Cleaning Women: Selected Stories'
-  - Genres:
+  - genres:
       - Fiction
       - Classics
       - Cultural > France

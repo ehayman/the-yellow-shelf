@@ -11,10 +11,12 @@ export const BlogPostTemplate = ({
   contentComponent,
   description,
   tags,
+  books,
   title,
   helmet,
 }) => {
-  const PostContent = contentComponent || Content
+  const PostContent = contentComponent || Content;
+  const booksArr = books ? Array.from(books) : [];
 
   return (
     <section className="section">
@@ -27,13 +29,26 @@ export const BlogPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
+            {booksArr && booksArr.length ? (
+              <div style={{ marginTop: `4rem` }}>
+                <h4>Books</h4>
+                <ul className="taglist">
+                  {booksArr.map(book => (
+                    <li key={book.title}>
+                      {book.title}
+                      <img src={book.coverimage.childImageSharp.fluid.src}></img>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
                 <ul className="taglist">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      <Link to={`/${kebabCase(tag)}/`}>{tag}</Link>
                     </li>
                   ))}
                 </ul>
@@ -73,6 +88,7 @@ const BlogPost = ({ data }) => {
           </Helmet>
         }
         tags={post.frontmatter.tags}
+        books={post.frontmatter.books}
         title={post.frontmatter.title}
       />
     </Layout>
@@ -97,6 +113,22 @@ export const pageQuery = graphql`
         title
         description
         tags
+        books {
+          title
+          bookauthor
+          publishyear
+          coverimage {
+            childImageSharp {
+              fluid(maxWidth: 1200, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          description
+          genres
+          aalink
+          goodreads
+        }
       }
     }
   }
