@@ -7,8 +7,37 @@ featuredpost: true
 featuredimage: /img/5c97c60fde995a3d32e801f2b2d5e482.jpg
 tags:
   - Fiction
+  - Nonfiction
   - Cultural > France
-secondaryBody: Type type
+secondaryBody: >-
+  <h2>Reads of the Week</h2>
+
+
+  <ul>
+
+  <li>The New York Times deep-dived into perhaps the only thing more French than
+  croissants - <a
+  href="https://www.nytimes.com/2019/12/17/world/europe/france-pension-protests.html?searchResultPosition=1">pension
+  reform</a>. In a nutshell: there is no nutshell.
+
+  </li>
+
+  <li>
+
+  France is, somewhat surprisingly, the most successful foreign market for
+  McDonalds. A rebranding (green logo instead of red) combined with locally
+  sourced ingredients (initially for political reasons but with the side effect
+  of tastier burgers) has led to "McDo" <a
+  href="https://knowledge.wharton.upenn.edu/article/born-in-the-usa-made-in-france-how-mcdonalds-succeeds-in-the-land-of-michelin-stars/">succeeding
+  in a culture famed for leisurely 2 hour lunches</a>.
+
+  </li>
+
+  <li>
+
+  </li>
+
+  </ul>
 books:
   - aalink: >-
       https://www.goodreads.com/book/show/1059856.The_Dud_Avocado?ac=1&from_search=true&qid=S70zllFq10&rank=1
