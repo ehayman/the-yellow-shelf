@@ -10,22 +10,19 @@ tags:
   - Cultural > France
 secondaryBody: Type type
 books:
-  - aalink: 'https://www.goodreads.com/book/show/22929586-a-manual-for-cleaning-women'
-    bookauthor: Lucia Berlin
-    coverimage: /img/71a4i+rD0oL.jpg
-    description: Body text
-    genres:
-      - Short Stories
-      - Fiction
-    goodreads: '4.18'
-    publishyear: 2015
-    templateKey: book-page
-    title: 'A Manual for Cleaning Women: Selected Stories'
   - aalink: >-
       https://www.goodreads.com/book/show/1059856.The_Dud_Avocado?ac=1&from_search=true&qid=S70zllFq10&rank=1
     bookauthor: Elaine Dundy
     coverimage: /img/81H82ftzRSL.jpg
-    description: Lorem ipsum
+    description: >-
+      Sally Jay's voice is sharp and poignant in the same breath; meanwhile, the
+      story is less of an arc and more of a frolic. In the words of Groucho
+      Marx, "it made me laugh, scream, and guffaw (which, incidentally, is a
+      great name for a law firm)."
+
+
+      “I always expect people to behave much better than I do. When they
+      actually behave worse, I am frankly incredulous.”
     genres:
       - Fiction
       - Classics
