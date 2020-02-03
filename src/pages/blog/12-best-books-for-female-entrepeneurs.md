@@ -10,6 +10,9 @@ tags:
   - Nonfiction
   - Cultural > France
 secondaryBody: >-
+  <img src="/img/86cccdbd6f1bfc982b44bc9046a7aed6.jpg">
+
+
   <h2>Reads of the Week</h2>
 
 
@@ -45,6 +48,9 @@ secondaryBody: >-
   </li>
 
   </ul>
+
+
+  <h2>
 books:
   - aalink: >-
       https://www.goodreads.com/book/show/1059856.The_Dud_Avocado?ac=1&from_search=true&qid=S70zllFq10&rank=1
