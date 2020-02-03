@@ -12,9 +12,6 @@ tags:
 secondaryBody: >-
   <img src="/img/86cccdbd6f1bfc982b44bc9046a7aed6.jpg">
 
-  <h4>caption here</h4>
-
-
   <h2>Read</h2>
 
   <h3>dive in a bit deeper</h3>
@@ -99,13 +96,13 @@ secondaryBody: >-
   </ul>
 
 
-  <a href="https://smittenkitchen.com/2019/03/essential-french-onion-soup/">Full
-  recipe with instructions can be found on Smitten Kitchen.</a>
+  <p><a
+  href="https://smittenkitchen.com/2019/03/essential-french-onion-soup/">Full
+  recipe with instructions can be found on Smitten Kitchen.</a></p>
 
 
   <img src="/img/071ruesaintdominique014.jpg">
 
-  <h4>caption here</h4>
 
 
   <h2>Picks</h2>
@@ -124,8 +121,6 @@ secondaryBody: >-
 
 
   <img src="/img/a6fbf2a9424006449da1f7bf8b0bb5b6.jpg">
-
-  <h4>caption here</h4>
 books:
   - aalink: >-
       https://www.goodreads.com/book/show/1059856.The_Dud_Avocado?ac=1&from_search=true&qid=S70zllFq10&rank=1
