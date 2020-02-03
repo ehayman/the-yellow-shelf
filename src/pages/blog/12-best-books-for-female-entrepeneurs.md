@@ -85,5 +85,31 @@ books:
     publishyear: 2019
     templateKey: book-page
     title: The Great Believers
+  - aalink: >-
+      https://www.goodreads.com/book/show/393199.Down_and_Out_in_Paris_and_London
+    bookauthor: George Orwell
+    coverimage: /img/9780141184388.jpg
+    description: >-
+      Orwell's fictional memoir mucks around in the basest of Parisian society
+      during the early 20th century. The highlight is perhaps his descriptions
+      of the grand hôtel kitchens - the general filth and infestation lying just
+      below the glitter and sparkle above - followed by his friendships formed
+      with tramps, gutter-dwellers, and general down-and-outs.
+
+
+      "It is a feeling of relief, almost of pleasure, at knowing yourself at
+      last genuinely down and out. You have talked so often of going to the dogs
+      — and well, here are the dogs, and you have reached them, and you can
+      stand it. It takes off a lot of anxiety."
+    genres:
+      - Nonfiction
+      - Classics
+      - Biography
+      - Autobiography > Memoir
+      - Travel
+    goodreads: '4.11'
+    publishyear: 1931
+    templateKey: book-page
+    title: Down and Out in Paris and London
 ---
 Body text here
