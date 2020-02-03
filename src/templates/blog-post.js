@@ -31,15 +31,17 @@ export const BlogPostTemplate = ({
             </h1>
             <p>{description}</p>
             <img src={featuredimage} alt="featured img"></img>
+            <h3>a small note</h3>
             <PostContent content={content} />
             {booksArr && booksArr.length ? (
               <div style={{ marginTop: `4rem` }}>
-                <h4>Books</h4>
+                <h2>Read</h2>
+                <h3>on our shelf this week</h3>
                 <ul className="taglist">
                   {booksArr.map(book => (
                     <li key={book.title}>
-                      {book.title}
-                      <img src={book.coverimage.childImageSharp.fluid.src}></img>
+                      <img src={book.coverimage.childImageSharp.fluid.src} style={{maxWidth: '450px'}}></img>
+                      <p><strong>{book.title}</strong></p>
                       <div dangerouslySetInnerHTML={{ __html: book.description }} />
                       <p>{book.genres}</p>
                       <p>{book.goodreads} / 5</p>
