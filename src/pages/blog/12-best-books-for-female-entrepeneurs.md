@@ -9,8 +9,10 @@ tags:
   - Fiction
   - Nonfiction
   - Cultural > France
-secondaryBody: >+
+secondaryBody: >
   <img src="/img/86cccdbd6f1bfc982b44bc9046a7aed6.jpg">
+
+  <h4>caption here</h4>
 
 
   <h2>Read</h2>
@@ -59,11 +61,13 @@ secondaryBody: >+
 
   <img src="/img/essential-french-onion-soup.jpg">
 
+  <p>
+
   Smitten Kitchen's <a
   href="https://smittenkitchen.com/2019/03/essential-french-onion-soup/">Essential
   French Onion Soup</a> is the perfect winter dish - cheap, filling, and simple
   even for the most novice of chefs. All you need is time, a baking dish, and a
-  whole lot of onions.
+  whole lot of onions.</p>
 
   <h4>Ingredients</h4>
 
@@ -99,6 +103,24 @@ secondaryBody: >+
   recipe with instructions can be found on Smitten Kitchen.</a>
 
 
+  <h2>Picks</h2>
+
+  <h3>buy things please (to be workshopped)</h3>
+
+  <ul>
+
+  <li>thing to buy with link</li>
+
+  <li>thing to buy with link</li>
+
+  <li>thing to buy with link</li>
+
+  </ul>
+
+
+  <img src="/img/a6fbf2a9424006449da1f7bf8b0bb5b6.jpg">
+
+  <h4>caption here</h4>
 books:
   - aalink: >-
       https://www.goodreads.com/book/show/1059856.The_Dud_Avocado?ac=1&from_search=true&qid=S70zllFq10&rank=1
