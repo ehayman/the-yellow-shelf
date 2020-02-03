@@ -275,6 +275,6 @@ I visited Paris for the first time in 2013. I took a disposable camera with me, 
 
 When I moved here, I moved for a relationship. I thought by being aware of the cliche, I could avoid the inevitable. As the relationship waxed and waned, so too did Paris. When I briefly moved out, the inevitable bureaucracy involved with moving became a monitor strapped around my ankle, an ever-present force dragging me further into the ground. Every negative interaction was heightened into a never-ending loop, forever circling around and around in my brain.
 
-But when things were good - when we picnicked in the parks, drank wine without judgement, sought each other in the dark - every detail, every grandiose door, every gargoyle face stared back at me with the absurd joy of the inanity of a city made by one architect.
+But when things were good - when we picnicked in the parks, drank wine without judgement, sought each other in the dark - every detail, every grandiose door, every gargoyle face stared back at me with the absurd joy of the inanity of <a href="https://en.wikipedia.org/wiki/Georges-Eug%C3%A8ne_Haussmann">a city made by one architect</a>.
 
 And when things ended, I went for a walk and sat for a while at a cafe. There I was, in a city like any other, needing to figure out a way to keep moving forward.
