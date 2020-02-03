@@ -111,5 +111,30 @@ books:
     publishyear: 1931
     templateKey: book-page
     title: Down and Out in Paris and London
+  - aalink: >-
+      https://www.goodreads.com/book/show/38330854-the-perfect-nanny?from_choice=false&from_home_module=false
+    bookauthor: 'Leïla Slimani, Sam Taylor '
+    coverimage: /img/download.jpeg
+    description: >-
+      "Thriller" doesn't quite cover this novel - it's the type of book that
+      lodges itself in an uncomfortable part of your brain, where you can never
+      quite reach to scratch it away. The story follows the embedding of a nanny
+      into the picture-perfect Parisian life of a lawyer's family, from the
+      murder of the children to the events preceding. While you never do get the
+      perfect answer, the consistent sense of disquiet along the way more than
+      makes up for it.
+
+
+      "Solitude was like a drug that she wasn’t sure she wanted to do without."
+    genres:
+      - Fiction
+      - Thriller
+      - Mystery
+      - Cultural > France
+      - Contemporary
+    goodreads: '3.39'
+    publishyear: 2018
+    templateKey: book-page
+    title: The Perfect Nanny
 ---
 Body text here
