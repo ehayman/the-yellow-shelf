@@ -23,7 +23,7 @@ books:
       great name for a law firm)."
 
 
-      “I always expect people to behave much better than I do. When they
+      > “I always expect people to behave much better than I do. When they
       actually behave worse, I am frankly incredulous.”
     genres:
       - Fiction
@@ -44,7 +44,7 @@ books:
       now-iconic *Mastering the Art of French Cooking.*
 
 
-      "The longer I was in France, the stronger and more ecstatic my feelings
+      > "The longer I was in France, the stronger and more ecstatic my feelings
       for it became. I missed my family, of course, and things like certain
       cosmetics or really good coffee. But the U.S. seemed like an increasingly
       distant and dreamlike place."
@@ -72,7 +72,7 @@ books:
       a community and its survivors.
 
 
-      "And was friendship that different in the end from love? You took the
+      > "And was friendship that different in the end from love? You took the
       possibility of sex out of it, and it was all about the moment anyway.
       Being here, right now, in someone’s life. Making room for someone in
       yours."
@@ -97,7 +97,7 @@ books:
       with tramps, gutter-dwellers, and general down-and-outs.
 
 
-      "It is a feeling of relief, almost of pleasure, at knowing yourself at
+      > "It is a feeling of relief, almost of pleasure, at knowing yourself at
       last genuinely down and out. You have talked so often of going to the dogs
       — and well, here are the dogs, and you have reached them, and you can
       stand it. It takes off a lot of anxiety."
@@ -125,7 +125,8 @@ books:
       makes up for it.
 
 
-      "Solitude was like a drug that she wasn’t sure she wanted to do without."
+      > "Solitude was like a drug that she wasn’t sure she wanted to do
+      without."
     genres:
       - Fiction
       - Thriller
