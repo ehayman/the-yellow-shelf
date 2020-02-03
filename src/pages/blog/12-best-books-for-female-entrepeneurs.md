@@ -31,5 +31,30 @@ books:
     publishyear: 1956
     templateKey: book-page
     title: The Dud Avocado
+  - aalink: 'https://www.goodreads.com/book/show/5084.My_Life_in_France'
+    bookauthor: 'Julia Child, Alex Prud''Homme'
+    coverimage: /img/81sH7bbdfEL.jpg
+    description: >-
+      Julia Child loved two things in this world deeply: France, and the "many
+      pleasures of cooking and eating." Beautifully written, this story
+      chronicles Julia's discovery of both these passions, from her first
+      lunchtime glass of wine (the horror!) to the eventual publication of her
+      now-iconic *Mastering the Art of French Cooking.*
+
+
+      "The longer I was in France, the stronger and more ecstatic my feelings
+      for it became. I missed my family, of course, and things like certain
+      cosmetics or really good coffee. But the U.S. seemed like an increasingly
+      distant and dreamlike place."
+    genres:
+      - Nonfiction
+      - Autobiography > Memoir
+      - Food and Drink > Food
+      - Biography
+      - Cultural > France
+    goodreads: '4.17'
+    publishyear: 2006
+    templateKey: book-page
+    title: My Life in France
 ---
 Body text here
