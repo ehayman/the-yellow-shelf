@@ -121,6 +121,22 @@ secondaryBody: >-
 
 
   <img src="/img/a6fbf2a9424006449da1f7bf8b0bb5b6.jpg">
+
+
+  <h2>Nostalgize</h2>
+
+  <h3>from our archives</h3>
+
+
+  <ul>
+
+  <li>link to old post</li>
+
+  <li>link to old post</li>
+
+  <li>link to old post</li>
+
+  </ul>
 books:
   - aalink: >-
       https://www.goodreads.com/book/show/1059856.The_Dud_Avocado?ac=1&from_search=true&qid=S70zllFq10&rank=1
