@@ -114,7 +114,7 @@ books:
   - aalink: >-
       https://www.goodreads.com/book/show/38330854-the-perfect-nanny?from_choice=false&from_home_module=false
     bookauthor: 'Leïla Slimani, Sam Taylor '
-    coverimage: /img/download.jpeg
+    coverimage: /img/91pOFIJXP9L.jpg
     description: >-
       "Thriller" doesn't quite cover this novel - it's the type of book that
       lodges itself in an uncomfortable part of your brain, where you can never
