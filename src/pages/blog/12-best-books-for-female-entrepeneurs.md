@@ -117,12 +117,12 @@ books:
     coverimage: /img/91pOFIJXP9L.jpg
     description: >-
       "Thriller" doesn't quite cover this novel - it's the type of book that
-      lodges itself in an uncomfortable part of your brain, where you can never
-      quite reach to scratch it away. The story follows the embedding of a nanny
-      into the picture-perfect Parisian life of a lawyer's family, from the
-      murder of the children to the events preceding. While you never do get the
-      perfect answer, the consistent sense of disquiet along the way more than
-      makes up for it.
+      lodges itself in an uncomfortable part of your brain, in a place where you
+      can never quite reach to scratch it away. The story follows the embedding
+      of a nanny into the picture-perfect Parisian life of a lawyer's family,
+      from the murder of the children to the events preceding. While you never
+      do get the perfect answer, the consistent sense of disquiet along the way
+      more than makes up for it.
 
 
       <blockquote>"Solitude was like a drug that she wasn’t sure she wanted to
