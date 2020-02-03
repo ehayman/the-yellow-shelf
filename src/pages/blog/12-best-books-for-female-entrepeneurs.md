@@ -42,7 +42,7 @@ secondaryBody: >+
 
   Pétanque has been a national sport for generations, but lately a Finnish lawn
   game called <a
-  href="https://www.thestrategist.co.uk/article/best-lawn-game-molkky.html#_ga=2.231272415.1787813150.1580728254-591319317.1578563949>Mölkky
+  href="https://www.thestrategist.co.uk/article/best-lawn-game-molkky.html#_ga=2.231272415.1787813150.1580728254-591319317.1578563949">Mölkky
   has been taking over the banks of the Canal Saint-Martin</a>. Its lightweight
   collection of pins and skill/luck ratio can help wile away any Sunday
   afternoon.
