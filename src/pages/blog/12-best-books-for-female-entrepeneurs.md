@@ -137,6 +137,9 @@ secondaryBody: >-
   <li>link to old post</li>
 
   </ul>
+
+
+  <img src="/img/c068acc4adeb68b9e5a1b0f3df90690d.jpg">
 books:
   - aalink: >-
       https://www.goodreads.com/book/show/1059856.The_Dud_Avocado?ac=1&from_search=true&qid=S70zllFq10&rank=1
