@@ -4,7 +4,7 @@ title: Paris
 date: 2020-01-30T18:55:14.946Z
 description: City of Lights
 featuredpost: true
-featuredimage: /img/287.jpeg
+featuredimage: /img/5c97c60fde995a3d32e801f2b2d5e482.jpg
 tags:
   - Fiction
   - Cultural > France
