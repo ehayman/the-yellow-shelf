@@ -12,7 +12,7 @@ tags:
 secondaryBody: >-
   <img src="/img/86cccdbd6f1bfc982b44bc9046a7aed6.jpg">
 
-  <h2>Read</h2>
+  <h2>Browse</h2>
 
   <h3>dive in a bit deeper</h3>
 
@@ -105,9 +105,9 @@ secondaryBody: >-
 
 
 
-  <h2>Picks</h2>
+  <h2>Click</h2>
 
-  <h3>buy things please (to be workshopped)</h3>
+  <h3>our picks of the week</h3>
 
   <ul>
 
