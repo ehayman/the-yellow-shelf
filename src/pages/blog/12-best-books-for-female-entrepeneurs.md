@@ -16,7 +16,9 @@ books:
     coverimage: /img/81H82ftzRSL.jpg
     description: >-
       Sally Jay's voice is sharp and poignant in the same breath; meanwhile, the
-      story is less of an arc and more of a frolic. In the words of Groucho
+      story is less of an arc and more of a frolic. Young and rootless and in
+      Paris for the first time, she flits around the city reveling in everything
+      (and everyone) with which she comes in contact. In the words of Groucho
       Marx, "it made me laugh, scream, and guffaw (which, incidentally, is a
       great name for a law firm)."
 
@@ -56,5 +58,32 @@ books:
     publishyear: 2006
     templateKey: book-page
     title: My Life in France
+  - aalink: >-
+      https://www.goodreads.com/book/show/45304101-the-great-believers?from_choice=false&from_home_module=false
+    bookauthor: Rebecca Makkai
+    coverimage: /img/81kQ-QJveoL.jpg
+    description: >-
+      Very few novels have the power to both make me sob my guts out in a
+      mascara-running-this-is-not-remotely-attractive type way *and* stay up far
+      too late on a school night turning pages as quickly as I can unstick them
+      from my tears. *The Great Believers* is massive in the scope it covers,
+      but still feels deeply familiar; split between the 1980's Chicago AIDS
+      epidemic and modern day Paris, it reckons with the lasting impact on both
+      a community and its survivors.
+
+
+      "And was friendship that different in the end from love? You took the
+      possibility of sex out of it, and it was all about the moment anyway.
+      Being here, right now, in someone’s life. Making room for someone in
+      yours."
+    genres:
+      - Fiction
+      - Historical > Historical Fiction
+      - LGBT
+      - Literary Fiction
+    goodreads: '4.20'
+    publishyear: 2019
+    templateKey: book-page
+    title: The Great Believers
 ---
 Body text here
