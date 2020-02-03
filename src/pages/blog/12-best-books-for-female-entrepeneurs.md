@@ -23,8 +23,8 @@ books:
       great name for a law firm)."
 
 
-      > “I always expect people to behave much better than I do. When they
-      actually behave worse, I am frankly incredulous.”
+      <blockquote>“I always expect people to behave much better than I do. When
+      they actually behave worse, I am frankly incredulous.”</blockquote>
     genres:
       - Fiction
       - Classics
@@ -41,13 +41,13 @@ books:
       pleasures of cooking and eating." Beautifully written, this story
       chronicles Julia's discovery of both these passions, from her first
       lunchtime glass of wine (the horror!) to the eventual publication of her
-      now-iconic *Mastering the Art of French Cooking.*
+      now-iconic <em>Mastering the Art of French Cooking</em>.
 
 
-      > "The longer I was in France, the stronger and more ecstatic my feelings
-      for it became. I missed my family, of course, and things like certain
-      cosmetics or really good coffee. But the U.S. seemed like an increasingly
-      distant and dreamlike place."
+      <blockquote>"The longer I was in France, the stronger and more ecstatic my
+      feelings for it became. I missed my family, of course, and things like
+      certain cosmetics or really good coffee. But the U.S. seemed like an
+      increasingly distant and dreamlike place."</blockquote>
     genres:
       - Nonfiction
       - Autobiography > Memoir
@@ -66,16 +66,16 @@ books:
       Very few novels have the power to both make me sob my guts out in a
       mascara-running-this-is-not-remotely-attractive type way *and* stay up far
       too late on a school night turning pages as quickly as I can unstick them
-      from my tears. *The Great Believers* is massive in the scope it covers,
-      but still feels deeply familiar; split between the 1980's Chicago AIDS
-      epidemic and modern day Paris, it reckons with the lasting impact on both
-      a community and its survivors.
+      from my tears. <em>The Great Believers</em> is massive in the scope it
+      covers, but still feels deeply familiar; split between the 1980's Chicago
+      AIDS epidemic and modern day Paris, it reckons with the lasting impact on
+      both a community and its survivors.
 
 
-      > "And was friendship that different in the end from love? You took the
-      possibility of sex out of it, and it was all about the moment anyway.
-      Being here, right now, in someone’s life. Making room for someone in
-      yours."
+      <blockquote>"And was friendship that different in the end from love? You
+      took the possibility of sex out of it, and it was all about the moment
+      anyway. Being here, right now, in someone’s life. Making room for someone
+      in yours."</blockquote>
     genres:
       - Fiction
       - Historical > Historical Fiction
@@ -97,10 +97,10 @@ books:
       with tramps, gutter-dwellers, and general down-and-outs.
 
 
-      > "It is a feeling of relief, almost of pleasure, at knowing yourself at
-      last genuinely down and out. You have talked so often of going to the dogs
-      — and well, here are the dogs, and you have reached them, and you can
-      stand it. It takes off a lot of anxiety."
+      <blockquote>"It is a feeling of relief, almost of pleasure, at knowing
+      yourself at last genuinely down and out. You have talked so often of going
+      to the dogs — and well, here are the dogs, and you have reached them, and
+      you can stand it. It takes off a lot of anxiety."</blockquote>
     genres:
       - Nonfiction
       - Classics
@@ -125,8 +125,8 @@ books:
       makes up for it.
 
 
-      > "Solitude was like a drug that she wasn’t sure she wanted to do
-      without."
+      <blockquote>"Solitude was like a drug that she wasn’t sure she wanted to
+      do without."</blockquote>
     genres:
       - Fiction
       - Thriller
