@@ -11,6 +11,8 @@ export const BlogPostTemplate = ({
   contentComponent,
   description,
   tags,
+  secondaryBody,
+  featuredimage,
   books,
   title,
   helmet,
@@ -28,6 +30,7 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
+            <img src={featuredimage} alt="featured img"></img>
             <PostContent content={content} />
             {booksArr && booksArr.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -37,11 +40,15 @@ export const BlogPostTemplate = ({
                     <li key={book.title}>
                       {book.title}
                       <img src={book.coverimage.childImageSharp.fluid.src}></img>
+                      <div dangerouslySetInnerHTML={{ __html: book.description }} />
+                      <p>{book.genres}</p>
+                      <p>{book.goodreads} / 5</p>
                     </li>
                   ))}
                 </ul>
               </div>
             ) : null}
+            <PostContent content={secondaryBody} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -65,6 +72,7 @@ BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
+  tags: PropTypes.array,
   title: PropTypes.string,
   helmet: PropTypes.object,
 }
@@ -78,6 +86,7 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        featuredimage={post.frontmatter.featuredimage.childImageSharp.fluid.src}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -87,6 +96,7 @@ const BlogPost = ({ data }) => {
             />
           </Helmet>
         }
+        secondaryBody={post.frontmatter.secondaryBody}
         tags={post.frontmatter.tags}
         books={post.frontmatter.books}
         title={post.frontmatter.title}
@@ -113,6 +123,14 @@ export const pageQuery = graphql`
         title
         description
         tags
+        secondaryBody
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 1200, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         books {
           title
           bookauthor

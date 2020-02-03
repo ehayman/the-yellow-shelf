@@ -5,11 +5,14 @@ import Layout from '../components/Layout'
 
 class TagRoute extends React.Component {
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges
+    const posts = this.props.data.allMarkdownRemark.edges;
+    console.log(posts);
     const postLinks = posts.map(post => (
       <li key={post.node.fields.slug}>
         <Link to={post.node.fields.slug}>
           <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
+          {post.node.frontmatter.featuredpost ? "feature" : null}
+          {post.node.frontmatter.featuredimage ? <img src={post.node.frontmatter.featuredimage.childImageSharp.fluid.src}></img>: null}
         </Link>
       </li>
     ))
@@ -55,7 +58,7 @@ export const tagPageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___featuredpost, frontmatter___date], order: [DESC, DESC] }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
@@ -66,6 +69,14 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
+            featuredpost
+            featuredimage {
+              childImageSharp {
+                fluid(maxWidth: 1200, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
