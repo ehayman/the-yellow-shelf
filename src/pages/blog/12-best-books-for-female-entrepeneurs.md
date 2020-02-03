@@ -1,15 +1,15 @@
 ---
 templateKey: blog-post
-title: Paris
+title: A Parisian Postcard
 date: 2020-01-30T18:55:14.946Z
-description: City of Lights
+description: 'Exploring the famed City of Lights '
 featuredpost: true
 featuredimage: /img/5c97c60fde995a3d32e801f2b2d5e482.jpg
 tags:
   - Fiction
   - Nonfiction
   - Cultural > France
-secondaryBody: >
+secondaryBody: >-
   <img src="/img/86cccdbd6f1bfc982b44bc9046a7aed6.jpg">
 
   <h4>caption here</h4>
@@ -101,6 +101,11 @@ secondaryBody: >
 
   <a href="https://smittenkitchen.com/2019/03/essential-french-onion-soup/">Full
   recipe with instructions can be found on Smitten Kitchen.</a>
+
+
+  <img src="/img/071ruesaintdominique014.jpg">
+
+  <h4>caption here</h4>
 
 
   <h2>Picks</h2>
