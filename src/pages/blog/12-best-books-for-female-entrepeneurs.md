@@ -269,7 +269,7 @@ books:
     templateKey: book-page
     title: The Perfect Nanny
 ---
-I've lived in Paris for three years now. It's a city that for so many is imbued with the stuff of fairytales; cobblestone streets and romance under yellow-lit lanterns. The systemic shock that occurs once one is faced with the gritty reality of a simultaneously aging and modern city grappling with the 21st century - as most cities must do - is common enough to have <a href="https://en.wikipedia.org/wiki/Paris_syndrome">its own name</a>. 
+I've lived in Paris for three years now. It's a city that for so many is imbued with the stuff of fairytales; cobblestone streets and romance under yellow-lit lanterns. The systemic shock that occurs once one is faced with the gritty reality of a simultaneously aging and modern city grappling with the 21st century - as most cities eventually must do - is common enough to have <a href="https://en.wikipedia.org/wiki/Paris_syndrome">its own name</a>. 
 
 I visited Paris for the first time in 2013. I took a disposable camera with me, and it was full of snapshots of the banks of the Seine and flower markets and crepes... but also, a boy whose name I've long forgotten pressed into my cheek, and his tattoo, and a band playing in the Metro, and graffiti.
 
