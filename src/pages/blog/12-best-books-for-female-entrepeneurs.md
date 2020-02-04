@@ -269,11 +269,11 @@ books:
     templateKey: book-page
     title: The Perfect Nanny
 ---
-I've lived in Paris for three years now. It's a city that for so many is imbued with the stuff of fairytales; cobblestone streets and romance under yellow-lit lanterns. The systemic shock that occurs once one is faced with the gritty reality of a simultaneously aging and modern city grappling with the 21st century - in the way most cities do - is common enough to have <a href="https://en.wikipedia.org/wiki/Paris_syndrome">its own name</a>. 
+I've lived in Paris for three years now. It's a city that for so many is imbued with the stuff of fairytales; cobblestone streets and romance under yellow-lit lanterns. The systemic shock that occurs once one is faced with the gritty reality of a simultaneously aging and modern city grappling with the 21st century - as most cities must do - is common enough to have <a href="https://en.wikipedia.org/wiki/Paris_syndrome">its own name</a>. 
 
 I visited Paris for the first time in 2013. I took a disposable camera with me, and it was full of snapshots of the banks of the Seine and flower markets and crepes... but also, a boy whose name I've long forgotten pressed into my cheek, and his tattoo, and a band playing in the Metro, and graffiti.
 
-When I moved here, I moved for a relationship. I thought by being aware of the cliche, I could avoid the inevitable. As the relationship waxed and waned, so too did Paris. When I briefly moved out, the inevitable bureaucracy involved with moving became a monitor strapped around my ankle, an ever-present force dragging me further into the ground. Every negative interaction was heightened into a never-ending loop, forever circling around and around in my brain.
+When I moved here, I moved for a relationship. I thought by being aware of the cliche, I could avoid the inevitable. As the relationship waxed and waned, so too did Paris. When I briefly moved out, the inevitable bureaucracy involved with moving became a monitor strapped around my ankle, an ever-present force dragging me further into the ground. Every negative interaction was heightened into a never-ending loop, forever forming a sandstorm in my brain. I'd spend evenings obsessing over the waitress who mimicked my (granted, truly awful) French accent.
 
 But when things were good - when we picnicked in the parks, drank wine without judgement, sought each other in the dark - every detail, every grandiose door, every gargoyle face stared back at me with the absurd joy of the inanity of <a href="https://en.wikipedia.org/wiki/Georges-Eug%C3%A8ne_Haussmann">a city made by one architect</a>.
 
