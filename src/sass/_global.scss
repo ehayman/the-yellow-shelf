@@ -23,7 +23,7 @@ body {
         align-items: flex-start;
     }
     &-logo {
-        margin: $padding-small;
+        margin: $padding-small $padding;
         &-svg {
             fill: $primary-color;
             width: 191px;
@@ -43,6 +43,88 @@ body {
             width: 28px;
             height: 28px;
             cursor: pointer;
+        }
+    }
+}
+
+// ------------- GRID ------------- //
+
+.grid-block {
+    display: flex;
+    padding: $padding;
+    background-color: $peach;
+    &:before {
+        content: "";
+        padding-bottom: 100%;
+    }
+    &-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &-label {
+        @include sans-serif-cta;
+    }
+    &-text {
+        &-title {
+            @include serif-subheadline;
+        }
+    }
+}
+
+.grid-block-full {
+    padding: $padding-large;
+    &-label {
+        @include sans-serif-cta;
+    }
+    &-text {
+        &-title {
+            @include serif-headline;
+        }
+        &-subtitle {
+            margin-top: 10px;
+            @include serif-subtitle;
+        }
+    }
+}
+
+
+// ------------- GRID 1 ------------- //
+
+.grid-1 {
+    &-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 311px; //magic number based on logo width
+        margin-top: -95px; //magic number based on logo height
+        grid-column-gap: $grid-gap;
+        .grid-block:not(.grid-block-non-offset) {
+            margin-top: $grid-gap + $padding-large;
+        }
+    }
+    &-block {
+        &-full {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            margin-right: -$grid-gap;
+            &-img {
+                grid-column-start: 3;
+                grid-column-end: 5;
+                background-size: cover;
+                transform: translateY($padding-large);
+                &:after {
+                    content: "";
+                    background-color: $peach;
+                    height: $padding-large;
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: -$padding-large;
+                }
+            }
+        }
+        &-offset {
+            grid-column-start: 2;
         }
     }
 }

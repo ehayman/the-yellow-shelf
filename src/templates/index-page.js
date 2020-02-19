@@ -15,7 +15,62 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
+  <div className="container-home">
+    <div className="grid-1-container">
+        <div className="grid-1-block-full grid-block-full grid-block grid-block-non-offset">
+        <div className="grid-block-inner">
+          <p className="grid-block-full-label">
+            Culture
+          </p>
+          <div className="grid-block-full-text">
+            <h3 className="grid-block-full-text-title">
+              A Parisian Postcard
+            </h3>
+            <h4 className="grid-block-full-text-subtitle">
+              Exploring the famed city of lights
+            </h4>
+          </div>
+        </div>
+        </div>
+        <div className="grid-1-block-full-img grid-block grid-block-non-offset" style={{backgroundImage: "url(http://localhost:8888/static/b49345e2692a9116494c5d50d3bbbd5b/96b47/5c97c60fde995a3d32e801f2b2d5e482.jpg)"}}>
+        </div>
+        <div className="grid-block grid-1-block-offset">
+        <div className="grid-block-inner">
+          <p className="grid-block-label">
+            Culture
+          </p>
+          <div className="grid-block-text">
+            <h3 className="grid-block-text-title">
+            Proin pretium dolor justo
+            </h3>
+        </div>
+        </div>
+        </div>
+        <div className="grid-block">
+        <div className="grid-block-inner">
+          <p className="grid-block-label">
+            Fiction
+          </p>
+          <div className="grid-block-text">
+            <h3 className="grid-block-text-title">
+            Donec dictum mollis libero at bibendum
+            </h3>
+        </div>
+        </div>
+        </div>
+        <div className="grid-block">
+        <div className="grid-block-inner">
+          <p className="grid-block-label">
+            Non-Fiction
+          </p>
+          <div className="grid-block-text">
+            <h3 className="grid-block-text-title">
+            Mauris elit eros, bibendum a semper vitae
+            </h3>
+        </div>
+        </div>
+        </div>
+    </div>
 {/*     <div
       className="full-width-image margin-top-0"
       style={{
