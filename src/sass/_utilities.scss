@@ -1,0 +1,64 @@
+// ------------- COLORS ------------- //
+
+$primary-color:             #E56745;
+$secondary-color:           #fff6f0;
+$tertiary-color-1:          #ffe4c5;
+$tertiary-color-2:          #ffbf44;
+$tertiary-color-3:          #ff884a;
+$tertiary-color-4:          #ffb73d;
+$dark-color:                #281B1B;
+$light-color:               #FCF6EB;
+
+// ------------- SPACING ------------- //
+
+$padding: 40px;
+$padding-small: 20px;
+
+// ------------- FONTS ------------- //
+
+$serif:                      'Moneta';
+$sans-serif:            'Maison Neue';
+
+@mixin sans-serif-copy {
+    font-family: $sans-serif;
+    font-weight: 400;
+    font-size: 1.03rem;
+    line-height: 1.8;
+}
+
+@mixin sans-serif-cta {
+    font-family: $sans-serif;
+    font-weight: 600;
+    font-size: .78rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .18rem;
+}
+
+// ------------- BUTTONS ------------- //
+
+@mixin btn-primary {
+    @include sans-serif-cta;
+    background-color: $dark-color;
+    color: $light-color;
+    padding: 13px 32px;
+    transition: .1s;
+    &:hover {
+        background-color: $light-color;
+        color: $dark-color;
+    }
+}
+
+// ------------- MEDIA MIXINS ------------- //
+
+@mixin media($breakpoint) {
+    @media (max-width:$breakpoint) {
+            @content;
+        }
+}
+
+@mixin media-height($breakpoint) {
+    @media (max-height:$breakpoint) {
+            @content;
+        }
+}

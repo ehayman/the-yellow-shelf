@@ -1,0 +1,48 @@
+// ------------- GLOBAL STYLES ------------- //
+
+body {
+    @include sans-serif-copy;
+    //background-color: #fffff9;
+    color: $dark-color;
+}
+
+::selection {
+    background-color: #222;
+    color: white;
+}
+
+.global-container {
+    padding: $padding;
+}
+
+// ------------- NAV ------------- //
+
+.nav {
+    &-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    &-logo {
+        margin: $padding-small;
+        &-svg {
+            fill: $primary-color;
+            width: 191px;
+            height: 140px;
+        }
+    }
+    &-content {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        &-subscribe {
+            @include btn-primary;
+            margin-right: $padding-small;
+        }
+        &-menu-svg {
+            width: 28px;
+            height: 28px;
+            cursor: pointer;
+        }
+    }
+}
