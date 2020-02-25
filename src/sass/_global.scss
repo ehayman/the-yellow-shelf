@@ -2,7 +2,7 @@
 
 body {
     @include sans-serif-copy;
-    //background-color: #fffff9;
+    background-color: #fff; 
     color: $dark-color;
 }
 
@@ -13,6 +13,59 @@ body {
 
 .global-container {
     padding: $padding;
+    position: relative;
+    z-index: unset;
+    background-color: #fdfcf6;
+    &:after {
+        content: "";
+        background-image: url(./../img/grain.jpeg);
+        background-attachment: fixed;
+        mix-blend-mode: soft-light;
+        opacity: .4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+    &-inner {
+        position: relative;
+        z-index: 1;
+    }
+    &-shapes {
+        &-1 {
+            fill: $tertiary-color-2;
+            position: absolute;
+            transform: translate(-65px, 200px) rotate(-45deg);
+        }
+        &-2 {
+            fill: $tertiary-color-3;
+            position: absolute;
+            transform: translate(465px, -90px) rotate(45deg);
+        }
+        &-3 {
+            fill: $tertiary-color-1;
+            position: absolute;
+            transform: translate(865px, -90px) rotate(-20deg);
+        }
+        &-4 {
+            fill: $tertiary-color-5; 
+            position: absolute;
+            transform: translate(0px, 390px) rotate(-20deg);
+        }
+        &-5 {
+            fill: $tertiary-color-3; 
+            position: absolute;
+            transform: translate(570px, 690px) rotate(20deg);
+        }
+        &-6 {
+            fill: $tertiary-color-1;
+            position: absolute;
+            transform: translate(295px, 450px) rotate(0);
+        }
+    }
 }
 
 // ------------- NAV ------------- //
@@ -25,9 +78,9 @@ body {
     &-logo {
         margin: $padding-small $padding;
         &-svg {
-            fill: $primary-color;
-            width: 191px;
-            height: 140px;
+            fill: $tertiary-color-5;
+            width: 218px;
+            height: 160px;
         }
     }
     &-content {
@@ -35,6 +88,8 @@ body {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        position: relative;
+        z-index: 1;
         &-subscribe {
             @include btn-primary;
             margin-right: $padding-small;
@@ -47,12 +102,16 @@ body {
     }
 }
 
+$grid-box-color: #281B1B;
+
 // ------------- GRID ------------- //
 
 .grid-block {
     display: flex;
     padding: $padding;
-    background-color: $peach;
+    background-color: $grid-box-color;
+    background-size: cover;
+    position: relative;
     &:before {
         content: "";
         padding-bottom: 100%;
@@ -61,6 +120,8 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        z-index: 2;
+        position: relative;
     }
     &-label {
         @include sans-serif-cta;
@@ -70,10 +131,66 @@ body {
             @include serif-subheadline;
         }
     }
+    &:not(.grid-block-full) {
+        color: $peach;
+    }
+    &:not(.grid-block-non-offset) {
+        &:after {
+            content: "";
+            background-color: rgba(218, 113, 54, .8);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            mix-blend-mode: multiply;
+            top: 0;
+        }
+        &:nth-child(3) {
+            &:after {
+                background-color: rgba(245, 171, 60, 0.8);
+            }
+        }
+        &:nth-child(4) {
+            &:after {
+                background-color: rgba(245, 111, 60, 0.8);
+            }
+        }
+        &:nth-child(5) {
+            &:after {
+                background-color: rgba(255, 228, 197, .8);
+            }
+        }
+        .grid-block-inner {
+            &:before {
+                content: "";
+                background: linear-gradient(0deg, rgba(40,27,27,1) 0%, rgba(230,255,0,0) 100%);
+                height: calc(100% + #{$padding * 2});
+                width: calc(100% + #{$padding * 2});
+                position: absolute;
+                z-index: -1;
+                left: -$padding;
+                top: -$padding;
+            }
+        }
+    }
 }
 
 .grid-block-full {
     padding: $padding-large;
+    position: relative;
+    background-color: #fff;
+    box-shadow: -10px 10px 40px 0 rgba(224, 220, 214, .3);
+    &:after {
+        content: "";
+        width: calc(100% - #{($padding / 2) - $grid-gap});
+        height: 100%;
+        background-color: transparent;
+        display: block;
+        top: $padding;
+        left: -$padding;
+        position: absolute;
+        z-index: -1;
+    }
     &-label {
         @include sans-serif-cta;
     }
@@ -95,8 +212,8 @@ body {
     &-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin-left: 311px; //magic number based on logo width
-        margin-top: -95px; //magic number based on logo height
+        margin-left: 331px; //magic number based on logo width
+        margin-top: -105px; //magic number based on logo height
         grid-column-gap: $grid-gap;
         .grid-block:not(.grid-block-non-offset) {
             margin-top: $grid-gap + $padding-large;
@@ -114,11 +231,13 @@ body {
                 transform: translateY($padding-large);
                 &:after {
                     content: "";
-                    background-color: $peach;
-                    height: $padding-large;
+                    background-color: rgba(245, 127, 60, 0.6);
+                    height: calc(100% + #{$padding-large});
                     width: 100%;
                     position: absolute;
                     left: 0;
+                    mix-blend-mode: multiply;
+                    border-top: $padding-large solid #fff;
                     top: -$padding-large;
                 }
             }

@@ -1,14 +1,16 @@
 // ------------- COLORS ------------- //
 
 $primary-color:             #E56745;
-$secondary-color:           #fff6f0;
+$secondary-color:           #fff7f2;
+$peach:                     #F6F1EA;
+
 $tertiary-color-1:          #ffe4c5;
 $tertiary-color-2:          #ffbf44;
 $tertiary-color-3:          #ff884a;
 $tertiary-color-4:          #ffb73d;
+$tertiary-color-5:          #da7136;
 $dark-color:                #281B1B;
 $light-color:               #FCF6EB;
-$peach:                     #F6F1EA;
 
 // ------------- SPACING ------------- //
 
@@ -68,7 +70,7 @@ $sans-serif:            'Maison Neue';
     padding: 13px 32px;
     transition: .1s;
     &:hover {
-        background-color: $light-color;
+        background-color: #fff;
         color: $dark-color;
     }
 }
