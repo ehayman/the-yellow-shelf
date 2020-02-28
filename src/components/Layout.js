@@ -11,7 +11,10 @@ const TemplateWrapper = ({ children }) => {
   return (
     <div className="global-container">
       <div className="global-container-shapes">
-      <svg width="128px" height="256px" viewBox="0 0 128 256" className="global-container-shapes-1">
+{/*         <div className="global-container-shapes-1"></div>
+        <div className="global-container-shapes-3"></div>
+        <div className="global-container-shapes-2"></div> */}
+{/*       <svg width="128px" height="256px" viewBox="0 0 128 256" className="global-container-shapes-1">
           <g stroke="none" strokeWidth="1">
               <g id="ketchup-copy" transform="translate(-520.000000, -3390.000000)">
                   <path d="M520,3518 C520,3447.30755 577.307552,3390 648,3390 L648,3454 L648,3454 C612.653776,3454 584,3482.65378 584,3518 C584,3553.34622 612.653776,3582 648,3582 L648,3646 C577.307552,3646 520,3588.69245 520,3518 Z" id="donut-half-large"></path>
@@ -52,7 +55,7 @@ const TemplateWrapper = ({ children }) => {
                   <rect id="rectangle-48-copy" x="671.532876" y="3174" width="48" height="128"></rect>
               </g>
           </g>
-      </svg>
+      </svg> */}
       </div>
       <Navbar />
       <div className="global-container-inner">

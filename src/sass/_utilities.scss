@@ -65,8 +65,8 @@ $sans-serif:            'Maison Neue';
 
 @mixin btn-primary {
     @include sans-serif-cta;
-    background-color: $dark-color;
-    color: $light-color;
+    background-color: #f5f4e9;
+    color: #1f1d1a;
     padding: 13px 32px;
     transition: .1s;
     &:hover {

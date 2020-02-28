@@ -1,9 +1,17 @@
 // ------------- GLOBAL STYLES ------------- //
 
+$grid-box-color: #f5f4e9;
+
+
 body {
     @include sans-serif-copy;
     background-color: #fff; 
     color: $dark-color;
+    background-image: url(https://theposterclub.com/wp-content/uploads/2019/03/By_Garmi_NG_01_Frame_Oak.jpg);
+    background-size: 240%;
+    background-position-y: -1790px;
+    background-position-x: -1090px;
+    background-attachment: fixed;
 }
 
 ::selection {
@@ -15,27 +23,68 @@ body {
     padding: $padding;
     position: relative;
     z-index: unset;
-    background-color: #fdfcf6;
-    &:after {
-        content: "";
-        background-image: url(./../img/grain.jpeg);
-        background-attachment: fixed;
-        mix-blend-mode: soft-light;
-        opacity: .4;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-    }
+    //background-color: #1f1d1a; //fdfcf6
     &-inner {
         position: relative;
         z-index: 1;
     }
     &-shapes {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        will-change: auto;
         &-1 {
+            background-color: #b9a339;
+            height: 700px;
+            width: 500px;
+            border-radius: 50%;
+            position: absolute;
+            filter: blur(200px);
+            top: 400px;
+        }
+        &-2 {
+            background-color: #fffcec;
+    height: 200px;
+    width: 500px;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-filter: blur(200px);
+    filter: blur(100px);
+    top: 400px;
+    opacity: .4;
+    left: 100px;
+        }
+        &-3 {
+            background-color: #5a8224;
+    height: 500px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-filter: blur(200px);
+    filter: blur(120px);
+    top: 500px;
+    opacity: .6;
+    left: 450px;
+        }
+        &:after {
+                content: "";
+                background-image: url(./../img/grain.jpeg);
+                background-attachment: fixed;
+                mix-blend-mode: soft-light;
+                opacity: .1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 100%;
+                width: 100%;
+                will-change: auto;
+                z-index: 1;
+            }
+/*         &-1 {
             fill: $tertiary-color-2;
             position: absolute;
             transform: translate(-65px, 200px) rotate(-45deg);
@@ -64,7 +113,7 @@ body {
             fill: $tertiary-color-1;
             position: absolute;
             transform: translate(295px, 450px) rotate(0);
-        }
+        } */
     }
 }
 
@@ -74,13 +123,14 @@ body {
     &-container {
         display: flex;
         align-items: flex-start;
+        position: relative;
+        z-index: 1;
     }
     &-logo {
         margin: $padding-small $padding;
         &-svg {
-            fill: $tertiary-color-5;
-            width: 218px;
-            height: 160px;
+            fill: $grid-box-color;
+            width: 180px;
         }
     }
     &-content {
@@ -91,18 +141,19 @@ body {
         position: relative;
         z-index: 1;
         &-subscribe {
-            @include btn-primary;
+            @include sans-serif-cta;
+            color: #1f1d1a;
             margin-right: $padding-small;
+            transform: translateY(2px);
         }
         &-menu-svg {
             width: 28px;
             height: 28px;
             cursor: pointer;
+            stroke: #1f1d1a;
         }
     }
 }
-
-$grid-box-color: #281B1B;
 
 // ------------- GRID ------------- //
 
@@ -110,11 +161,20 @@ $grid-box-color: #281B1B;
     display: flex;
     padding: $padding;
     background-color: $grid-box-color;
-    background-size: cover;
     position: relative;
     &:before {
         content: "";
         padding-bottom: 100%;
+    }
+    &-img {
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        height: 100%;
+        filter: contrast(80%) brightness(0.75) grayscale(.8);
+
     }
     &-inner {
         display: flex;
@@ -132,38 +192,24 @@ $grid-box-color: #281B1B;
         }
     }
     &:not(.grid-block-full) {
-        color: $peach;
+        color: #fff;
     }
     &:not(.grid-block-non-offset) {
         &:after {
             content: "";
-            background-color: rgba(218, 113, 54, .8);
+            background-image: url(./../img/grain.jpeg);
             height: 100%;
             width: 100%;
             position: absolute;
             left: 0;
-            mix-blend-mode: multiply;
+            mix-blend-mode: soft-light;
             top: 0;
-        }
-        &:nth-child(3) {
-            &:after {
-                background-color: rgba(245, 171, 60, 0.8);
-            }
-        }
-        &:nth-child(4) {
-            &:after {
-                background-color: rgba(245, 111, 60, 0.8);
-            }
-        }
-        &:nth-child(5) {
-            &:after {
-                background-color: rgba(255, 228, 197, .8);
-            }
+            opacity: .3;
         }
         .grid-block-inner {
             &:before {
                 content: "";
-                background: linear-gradient(0deg, rgba(40,27,27,1) 0%, rgba(230,255,0,0) 100%);
+                background: linear-gradient(0deg, rgba(31, 28, 25, .8) 0%, rgba(230, 255, 0, 0) 100%);
                 height: calc(100% + #{$padding * 2});
                 width: calc(100% + #{$padding * 2});
                 position: absolute;
@@ -179,17 +225,17 @@ $grid-box-color: #281B1B;
     padding: $padding-large;
     position: relative;
     background-color: #fff;
-    box-shadow: -10px 10px 40px 0 rgba(224, 220, 214, .3);
+    box-shadow: -20px 40px 100px rgba(31, 29, 26, 0.25);
     &:after {
         content: "";
-        width: calc(100% - #{($padding / 2) - $grid-gap});
-        height: 100%;
-        background-color: transparent;
+        width: calc(100% - #{$grid-gap});
+        height: $padding-large;
+        background-color: #fff;
         display: block;
-        top: $padding;
-        left: -$padding;
+        top: 0;
+        left: 100%;
         position: absolute;
-        z-index: -1;
+        z-index: 1;
     }
     &-label {
         @include sans-serif-cta;
@@ -229,15 +275,16 @@ $grid-box-color: #281B1B;
                 grid-column-end: 5;
                 background-size: cover;
                 transform: translateY($padding-large);
+                filter: contrast(90%) brightness(0.85) grayscale(1);
                 &:after {
                     content: "";
-                    background-color: rgba(245, 127, 60, 0.6);
+                    background-image: url(./../img/grain.jpeg);
                     height: calc(100% + #{$padding-large});
                     width: 100%;
                     position: absolute;
                     left: 0;
-                    mix-blend-mode: multiply;
-                    border-top: $padding-large solid #fff;
+                    mix-blend-mode: soft-light;
+                    opacity: .5;
                     top: -$padding-large;
                 }
             }

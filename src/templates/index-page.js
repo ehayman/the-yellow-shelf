@@ -34,7 +34,8 @@ export const IndexPageTemplate = ({
         </div>
         <div className="grid-1-block-full-img grid-block grid-block-non-offset" style={{backgroundImage: "url(http://localhost:8888/static/b49345e2692a9116494c5d50d3bbbd5b/3ed76/5c97c60fde995a3d32e801f2b2d5e482.jpg)"}}>
         </div>
-        <div className="grid-block grid-1-block-offset" style={{backgroundImage: "url(http://localhost:8888/img/071ruesaintdominique014.jpg)"}}>
+        <div className="grid-block grid-1-block-offset">
+          <div className="grid-block-img" style={{backgroundImage: "url(http://localhost:8888/img/071ruesaintdominique014.jpg)"}}></div>
         <div className="grid-block-inner">
           <p className="grid-block-label">
             Culture
@@ -46,7 +47,8 @@ export const IndexPageTemplate = ({
         </div>
         </div>
         </div>
-        <div className="grid-block" style={{backgroundImage: "url(http://localhost:8888/img/a6fbf2a9424006449da1f7bf8b0bb5b6.jpg)"}}>
+        <div className="grid-block">
+        <div className="grid-block-img" style={{backgroundImage: "url(http://localhost:8888/img/a6fbf2a9424006449da1f7bf8b0bb5b6.jpg)"}}></div>
         <div className="grid-block-inner">
           <p className="grid-block-label">
             Fiction
@@ -58,7 +60,8 @@ export const IndexPageTemplate = ({
         </div>
         </div>
         </div>
-        <div className="grid-block" style={{backgroundImage: "url(http://localhost:8888/img/c068acc4adeb68b9e5a1b0f3df90690d.jpg)"}}>
+        <div className="grid-block">
+        <div className="grid-block-img" style={{backgroundImage: "url(http://localhost:8888/img/c068acc4adeb68b9e5a1b0f3df90690d.jpg)"}}></div>
         <div className="grid-block-inner">
           <p className="grid-block-label">
             Non-Fiction
