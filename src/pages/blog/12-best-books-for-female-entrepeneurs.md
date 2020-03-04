@@ -5,6 +5,10 @@ date: 2020-01-30T18:55:14.946Z
 description: 'Exploring the famed City of Lights '
 featuredpost: true
 featuredimage: /img/5c97c60fde995a3d32e801f2b2d5e482.jpg
+headline: >-
+  <strong>A small note -</strong> on a city that for so many is imbued with the
+  stuff of fairytales; cobblestone streets and romance under yellow-lit
+  lanterns.
 tags:
   - Fiction
   - Nonfiction
