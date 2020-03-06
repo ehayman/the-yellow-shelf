@@ -1,7 +1,7 @@
 // ------------- GLOBAL STYLES ------------- //
 
 $grid-box-color: #f5f4e9;
-
+$post-opacity: .95;
 
 body {
     @include sans-serif-copy;
@@ -10,36 +10,67 @@ body {
 }
 
 ::selection {
-    background-color: #222;
+    background-color: rgba(34,34,34,.8);
     color: white;
 }
 
 .global-container {
-    padding: $padding;
+    padding: $padding $padding 0 $padding;
     position: relative;
     z-index: 2;
     //background-color: #1f1d1a; //fdfcf6
     &-bg {
+        &:before {
+            content: "";
+            background-image: url(./../img/grain.jpeg);
+            mix-blend-mode: soft-light;
+            opacity: .3;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 100%;
+            width: 100%;
+            will-change: auto;
+            z-index: 1;
+        }
         &.IndexPageTemplate {
             background-image: url(https://theposterclub.com/wp-content/uploads/2019/03/By_Garmi_NG_01_Frame_Oak.jpg);
             background-size: 240%;
             background-position-y: -1790px;
             background-position-x: -1090px;
             background-attachment: fixed;
+        }
+        &.BlogPostTemplate {
+            background-image: url(http://localhost:8888/static/b49345e2692a9116494c5d50d3bbbd5b/3ed76/5c97c60fde995a3d32e801f2b2d5e482.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            .nav-logo-svg {
+                fill: $light-color;
+                opacity: $post-opacity;
+            }
+            .nav-content-menu-svg {
+                stroke: $light-color;
+                opacity: $post-opacity;
+            }
+            .nav-content-subscribe {
+                color: $light-color;
+                opacity: $post-opacity;
+            }
             &:after {
                 content: "";
-                background-image: url(./../img/grain.jpeg);
-                mix-blend-mode: soft-light;
-                opacity: .3;
-                position: fixed;
+                background: linear-gradient(180deg, rgba(134, 74, 0, 1) 0%, rgba(134, 74, 0, .95) 60%, rgba(134, 74, 0, 0.75) 100%);                position: absolute;
                 top: 0;
                 left: 0;
                 right: 0;
                 bottom: 0;
-                height: 100%;
+                height: calc(100% + 110px);
                 width: 100%;
-                will-change: auto;
-                z-index: 1;
+                opacity: 0.9;
+            }
+            &:before {
+                opacity: .15;
             }
         }
     }
@@ -56,7 +87,7 @@ body {
         display: flex;
         align-items: flex-start;
         position: relative;
-        z-index: 1;
+        z-index: 2;
     }
     &-logo {
         margin: $padding-small $padding;
@@ -178,6 +209,7 @@ body {
     &-text {
         &-title {
             @include serif-headline;
+            font-weight: 600;
         }
         &-subtitle {
             margin-top: 10px;
@@ -226,6 +258,80 @@ body {
         }
         &-offset {
             grid-column-start: 2;
+        }
+    }
+}
+
+// ------------- POST------------- //
+
+.copy {
+    max-width: $max-copy-width;
+    p + p {
+        margin-top: $padding-small;
+    }
+    a {
+        color: $dark-color;
+        border-bottom: 1px solid $dark-color;
+    }
+}
+
+.post {
+    &-header {
+        min-height: 100vh;
+        margin-top: -220px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 220px 0 $padding-huge 0;
+        color: $light-color;
+        &-content {
+            max-width: 1100px;
+            opacity: $post-opacity;
+        }
+        &-type {
+            @include sans-serif-cta-large;
+            margin-bottom: $padding;
+            opacity: .8;
+        }
+        &-title {
+            @include serif-title;
+            font-weight: 600;
+        }
+        &-desc {
+            @include serif-title;
+            margin-top: 10px;
+        }
+    }
+    &-content {
+        margin-left: -$padding;
+        margin-right: -$padding;
+        padding: 0 $padding;
+        background-color: #fff
+    }
+    &-headline {
+        @include serif-headline;
+        max-width: $max-headline-width;
+        padding-bottom: $padding-large;
+        padding-top: $padding-large + $padding-small;
+        padding-left: 2px;
+        margin-left: $padding;
+        position: relative;
+    }
+    &-note {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -$padding;
+        &-img {
+            margin-right: $padding-huge;
+            flex-grow: 1;
+            img {
+                width: 100%;
+            }
+        }
+        &-copy {
+            margin-top: $padding-small;
+            margin-right: $padding-huge;
         }
     }
 }

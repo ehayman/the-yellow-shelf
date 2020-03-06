@@ -10,6 +10,7 @@ export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
+  headline,
   tags,
   secondaryBody,
   featuredimage,
@@ -21,18 +22,23 @@ export const BlogPostTemplate = ({
   const booksArr = books ? Array.from(books) : [];
 
   return (
-    <section className="section">
+    <section>
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <img src={featuredimage} alt="featured img"></img>
-            <h3>a small note</h3>
-            <PostContent content={content} />
+            <div className="post-header">
+              <div className="post-header-content">
+            <p className="post-header-type">From The Editor</p>
+            <h1 className="post-header-title">{title}</h1>
+            <p className="post-header-desc">{description}</p>
+            </div>
+            </div>
+            <div className="post-content">
+            <h3 className="post-headline" dangerouslySetInnerHTML={{ __html: headline }} />
+            <div className="post-note">
+            <div className="post-note-img">
+              <img src={featuredimage}></img>
+            </div>
+            <PostContent className="post-note-copy copy" content={content} />
+            </div>
             {booksArr && booksArr.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h2>Read</h2>
@@ -63,9 +69,7 @@ export const BlogPostTemplate = ({
                 </ul>
               </div>
             ) : null}
-          </div>
-        </div>
-      </div>
+            </div>
     </section>
   )
 }
@@ -102,6 +106,7 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         books={post.frontmatter.books}
         title={post.frontmatter.title}
+        headline={post.frontmatter.headline}
       />
     </Layout>
   )
@@ -126,6 +131,7 @@ export const pageQuery = graphql`
         description
         tags
         secondaryBody
+        headline
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 1200, quality: 64) {
