@@ -156,16 +156,15 @@ books:
       (and everyone) with which she comes in contact. In the words of Groucho
       Marx, "it made me laugh, scream, and guffaw (which, incidentally, is a
       great name for a law firm)."
-
-
-      <blockquote>“I always expect people to behave much better than I do. When
-      they actually behave worse, I am frankly incredulous.”</blockquote>
     genres:
       - Fiction
       - Classics
       - Cultural > France
     goodreads: '3.62'
     publishyear: 1956
+    quote: >-
+      I always expect people to behave much better than I do. When they actually
+      behave worse, I am frankly incredulous.
     templateKey: book-page
     title: The Dud Avocado
   - aalink: 'https://www.goodreads.com/book/show/5084.My_Life_in_France'
@@ -177,12 +176,6 @@ books:
       chronicles Julia's discovery of both these passions, from her first
       lunchtime glass of wine (the horror!) to the eventual publication of her
       now-iconic <em>Mastering the Art of French Cooking</em>.
-
-
-      <blockquote>"The longer I was in France, the stronger and more ecstatic my
-      feelings for it became. I missed my family, of course, and things like
-      certain cosmetics or really good coffee. But the U.S. seemed like an
-      increasingly distant and dreamlike place."</blockquote>
     genres:
       - Nonfiction
       - Autobiography > Memoir
@@ -191,6 +184,11 @@ books:
       - Cultural > France
     goodreads: '4.17'
     publishyear: 2006
+    quote: >-
+      The longer I was in France, the stronger and more ecstatic my feelings for
+      it became. I missed my family, of course, and things like certain
+      cosmetics or really good coffee. But the U.S. seemed like an increasingly
+      distant and dreamlike place.
     templateKey: book-page
     title: My Life in France
   - aalink: >-
@@ -205,12 +203,6 @@ books:
       covers, but still feels deeply familiar; split between the 1980's Chicago
       AIDS epidemic and modern day Paris, it reckons with the lasting impact on
       both a community and its survivors.
-
-
-      <blockquote>"And was friendship that different in the end from love? You
-      took the possibility of sex out of it, and it was all about the moment
-      anyway. Being here, right now, in someone’s life. Making room for someone
-      in yours."</blockquote>
     genres:
       - Fiction
       - Historical > Historical Fiction
@@ -218,6 +210,11 @@ books:
       - Literary Fiction
     goodreads: '4.20'
     publishyear: 2019
+    quote: >-
+      And was friendship that different in the end from love? You took the
+      possibility of sex out of it, and it was all about the moment anyway.
+      Being here, right now, in someone’s life. Making room for someone in
+      yours.
     templateKey: book-page
     title: The Great Believers
   - aalink: >-
@@ -230,12 +227,6 @@ books:
       of the grand hôtel kitchens - the general filth and infestation lying just
       below the glitter and sparkle above - followed by his friendships formed
       with tramps, gutter-dwellers, and general down-and-outs.
-
-
-      <blockquote>"It is a feeling of relief, almost of pleasure, at knowing
-      yourself at last genuinely down and out. You have talked so often of going
-      to the dogs — and well, here are the dogs, and you have reached them, and
-      you can stand it. It takes off a lot of anxiety."</blockquote>
     genres:
       - Nonfiction
       - Classics
@@ -244,6 +235,11 @@ books:
       - Travel
     goodreads: '4.11'
     publishyear: 1931
+    quote: >-
+      It is a feeling of relief, almost of pleasure, at knowing yourself at last
+      genuinely down and out. You have talked so often of going to the dogs —
+      and well, here are the dogs, and you have reached them, and you can stand
+      it. It takes off a lot of anxiety.
     templateKey: book-page
     title: Down and Out in Paris and London
   - aalink: >-
@@ -258,10 +254,6 @@ books:
       from the murder of the children to the events preceding. While you never
       do get the perfect answer, the consistent sense of disquiet along the way
       more than makes up for it.
-
-
-      <blockquote>"Solitude was like a drug that she wasn’t sure she wanted to
-      do without."</blockquote>
     genres:
       - Fiction
       - Thriller
@@ -270,6 +262,7 @@ books:
       - Contemporary
     goodreads: '3.39'
     publishyear: 2018
+    quote: Solitude was like a drug that she wasn’t sure she wanted to do without.
     templateKey: book-page
     title: The Perfect Nanny
 ---
