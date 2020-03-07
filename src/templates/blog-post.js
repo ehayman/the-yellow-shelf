@@ -46,12 +46,14 @@ export const BlogPostTemplate = ({
                   {booksArr.map(book => (
                     <li key={book.title} className="post-book">
                       <div className="post-book-img">
-                      <img src="/../img/book-example.png"></img>
+                      <img src={book.coverimage.childImageSharp.fluid.src}></img>
                       </div>
-{/*                       <img src={book.coverimage.childImageSharp.fluid.src} style={{maxWidth: '450px'}}></img>
- */}                  <div className="post-book-content">
+               <div className="post-book-content">
                       <p><strong>{book.title}</strong></p>
+                      <p>{book.bookauthor}</p>
+                      <p>{book.publishyear}</p>
                       <div dangerouslySetInnerHTML={{ __html: book.description }} />
+                      <p>{book.quote}</p>
                       <p>{book.genres}</p>
                       <p>{book.goodreads} / 5</p>
                       </div>
@@ -158,6 +160,7 @@ export const pageQuery = graphql`
           genres
           aalink
           goodreads
+          quote
         }
       }
     }

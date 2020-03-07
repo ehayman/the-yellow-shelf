@@ -346,7 +346,7 @@ body {
         &-content {
             flex-grow: 3;
             flex-basis: 0;
-            padding: $padding;
+            padding: $padding-large;
         }
         &:nth-child(odd) {
             flex-flow: row-reverse;
