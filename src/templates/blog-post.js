@@ -34,8 +34,7 @@ export const BlogPostTemplate = ({
             <div className="post-content">
             <h3 className="post-headline" dangerouslySetInnerHTML={{ __html: headline }} />
             <div className="post-note">
-            <div className="post-note-img">
-              <img src={featuredimage}></img>
+            <div className="post-note-img" style={{backgroundImage: 'url(' + featuredimage + ')'}}>
             </div>
             <PostContent className="post-note-copy copy" content={content} />
             </div>
@@ -43,14 +42,19 @@ export const BlogPostTemplate = ({
               <div style={{ marginTop: `4rem` }}>
                 <h2>Read</h2>
                 <h3>on our shelf this week</h3>
-                <ul className="taglist">
+                <ul className="post-book-wrapper">
                   {booksArr.map(book => (
-                    <li key={book.title}>
-                      <img src={book.coverimage.childImageSharp.fluid.src} style={{maxWidth: '450px'}}></img>
+                    <li key={book.title} className="post-book">
+                      <div className="post-book-img">
+                      <img src="/../img/book-example.png"></img>
+                      </div>
+{/*                       <img src={book.coverimage.childImageSharp.fluid.src} style={{maxWidth: '450px'}}></img>
+ */}                  <div className="post-book-content">
                       <p><strong>{book.title}</strong></p>
                       <div dangerouslySetInnerHTML={{ __html: book.description }} />
                       <p>{book.genres}</p>
                       <p>{book.goodreads} / 5</p>
+                      </div>
                     </li>
                   ))}
                 </ul>

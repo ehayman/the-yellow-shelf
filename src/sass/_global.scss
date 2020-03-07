@@ -1,7 +1,7 @@
 // ------------- GLOBAL STYLES ------------- //
 
 $grid-box-color: #f5f4e9;
-$post-opacity: .95;
+$post-opacity: .92;
 
 body {
     @include sans-serif-copy;
@@ -43,7 +43,6 @@ body {
             background-attachment: fixed;
         }
         &.BlogPostTemplate {
-            background-image: url('http://localhost:8888/static/b49345e2692a9116494c5d50d3bbbd5b/96b47/5c97c60fde995a3d32e801f2b2d5e482.jpg'); 
             background-size: cover;
             background-attachment: fixed;
             .nav-logo-svg {
@@ -324,14 +323,33 @@ body {
         margin-left: -$padding;
         &-img {
             margin-right: $padding-huge;
+            background-size: cover;
             flex-grow: 1;
-            img {
-                width: 100%;
-            }
         }
         &-copy {
             margin-top: $padding-small;
             margin-right: $padding-huge;
+            margin-bottom: $padding-small;
+        }
+    }
+    &-book {
+        display: flex;
+        &-wrapper {
+            margin-left: -$padding;
+            margin-right: -$padding;
+        }
+        &-img {
+            flex-grow: 2;
+            flex-basis: 0;
+            background-color: #f9f3d7;
+        }
+        &-content {
+            flex-grow: 3;
+            flex-basis: 0;
+            padding: $padding;
+        }
+        &:nth-child(odd) {
+            flex-flow: row-reverse;
         }
     }
 }
