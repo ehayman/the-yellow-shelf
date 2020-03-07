@@ -7,9 +7,10 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
+    console.log(children);
   const { title, description } = useSiteMetadata()
   return (
-    <div className={"global-container-bg " + (children.type ? children.type.name : "")}>
+    <div className={"global-container-bg " + (children.type ? children.type.displayName : "")}>
       <div className="global-container">
       <div className="global-container-shapes">
 {/*         <div className="global-container-shapes-1"></div>
