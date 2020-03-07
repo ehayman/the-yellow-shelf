@@ -148,7 +148,7 @@ books:
   - aalink: >-
       https://www.goodreads.com/book/show/1059856.The_Dud_Avocado?ac=1&from_search=true&qid=S70zllFq10&rank=1
     bookauthor: Elaine Dundy
-    coverimage: /img/81H82ftzRSL.jpg
+    coverimage: /img/book-da.png
     description: >-
       Sally Jay's voice is sharp and poignant in the same breath; meanwhile, the
       story is less of an arc and more of a frolic. Young and rootless and in
@@ -169,7 +169,7 @@ books:
     title: The Dud Avocado
   - aalink: 'https://www.goodreads.com/book/show/5084.My_Life_in_France'
     bookauthor: 'Julia Child, Alex Prud''Homme'
-    coverimage: /img/81sH7bbdfEL.jpg
+    coverimage: /img/book-jc.png
     description: >-
       Julia Child loved two things in this world deeply: France, and the "many
       pleasures of cooking and eating." Beautifully written, this story
@@ -194,7 +194,7 @@ books:
   - aalink: >-
       https://www.goodreads.com/book/show/45304101-the-great-believers?from_choice=false&from_home_module=false
     bookauthor: Rebecca Makkai
-    coverimage: /img/81kQ-QJveoL.jpg
+    coverimage: /img/book-gb.png
     description: >-
       Very few novels have the power to both make me sob my guts out in a
       mascara-running-this-is-not-remotely-attractive type way *and* stay up far
@@ -220,7 +220,7 @@ books:
   - aalink: >-
       https://www.goodreads.com/book/show/393199.Down_and_Out_in_Paris_and_London
     bookauthor: George Orwell
-    coverimage: /img/9780141184388.jpg
+    coverimage: /img/book-go.png
     description: >-
       Orwell's fictional memoir mucks around in the basest of Parisian society
       during the early 20th century. The highlight is perhaps his descriptions
@@ -245,7 +245,7 @@ books:
   - aalink: >-
       https://www.goodreads.com/book/show/38330854-the-perfect-nanny?from_choice=false&from_home_module=false
     bookauthor: 'Leïla Slimani, Sam Taylor '
-    coverimage: /img/91pOFIJXP9L.jpg
+    coverimage: /img/book-pn.png
     description: >-
       "Thriller" doesn't quite cover this novel - it's the type of book that
       lodges itself in an uncomfortable part of your brain, in a place where you
