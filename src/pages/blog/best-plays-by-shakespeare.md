@@ -5,11 +5,13 @@ date: 2020-03-09T15:58:42.942Z
 description: The Bard's greatest works
 featuredimage: /img/3397135lpw-3397291-article-teatro-jpg_3453196_660x281.jpg
 coverimage: /img/91b055ae26ae94066dc14511e79cc245.jpg
+grayscalecoverimage: true
 headline: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis ut
   nulla eget ornare.
 tags:
   - Classics
+articlecolor: red
 books:
   - aalink: 'https://www.goodreads.com/book/show/1622.A_Midsummer_Night_s_Dream'
     bookauthor: William Shakespeare
