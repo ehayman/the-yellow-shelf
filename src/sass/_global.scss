@@ -334,19 +334,110 @@ body {
     }
     &-book {
         display: flex;
+        margin-top: $padding-large;
+        align-items: center;
         &-wrapper {
             margin-left: -$padding;
             margin-right: -$padding;
         }
         &-img {
-            flex-grow: 2;
-            flex-basis: 0;
-            background-color: #f9f3d7;
-        }
-        &-content {
             flex-grow: 3;
             flex-basis: 0;
+            padding: $padding;
+        }
+        &-content {
+            flex-grow: 4;
+            flex-basis: 0;
             padding: $padding-large;
+            background-color: #FFF8E3;
+            &-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+            &-rating {
+                @include serif-cta;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                line-height: 1;
+                margin-top: 20px;
+                &-stars {
+                    margin-right: 14px;
+                    display: flex;
+                    transform: translateY(1px);
+                    svg {
+                        height: 9px;
+                        width: 9px;
+                        fill: #e2cc00;
+                        + svg {
+                            margin-left: 6px;
+                        }
+                    }
+                }
+            }
+            &-title {
+                @include serif-booktitle;
+                font-weight: 600;
+                margin-bottom: $padding-small;
+                margin-right: 20px;
+            }
+            &-author {
+                &-name {
+                    font-weight: 600;
+                }
+            }
+            &-metadata {
+                color: #757575;
+                span + span {
+                    &:before {
+                        content: "\00B7";
+                        margin: 0 6px;
+                    }
+                }
+            }
+            &-review {
+                margin: $padding 0;
+            }
+            &-quote {
+                @include serif-quote;
+                display: flex;
+                position: relative;
+                &-icons {
+                    display: flex;
+                    position: absolute;
+                    z-index: 0;
+                    left: 0;
+                    top: 0;
+                    svg {
+                        height: 95px;
+                        fill: #ffe8a4;
+                        transform: rotate(180deg);
+                        + svg {
+                            transform: rotate(180deg) translateX(12px);
+                        }
+                    }
+                }
+                &-text {
+                    z-index: 1;
+                    padding: 25px 0 0 35px;
+                }
+            }
+            &-genres {
+                margin-top: $padding + $padding-small;
+                display: flex;
+                @include sans-serif-cta-small;
+                line-height: 1;
+                li {
+                    padding: 12px 18px;
+                    background-color: #ffe8a4;
+                    color: #000;
+                    border-radius: 3px;
+                    + li {
+                        margin-left: 18px;
+                    }
+                }
+            }
         }
         &:nth-child(odd) {
             flex-flow: row-reverse;
