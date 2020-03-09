@@ -31,6 +31,7 @@ books:
       - Drama
       - Fantasy
     goodreads: '3.94'
+    numberofpages: 214
     publishyear: 1596
     quote: 'Though she be but little, she is fierce!'
     templateKey: book-page
@@ -60,6 +61,7 @@ books:
       - Drama
       - Fiction
     goodreads: '3.81'
+    numberofpages: 218
     publishyear: 1611
     quote: Hell is empty and all the devils are here.
     templateKey: book-page
