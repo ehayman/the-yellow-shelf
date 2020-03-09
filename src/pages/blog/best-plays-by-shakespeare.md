@@ -6,8 +6,8 @@ description: The Bard's greatest works
 featuredimage: /img/3397135lpw-3397291-article-teatro-jpg_3453196_660x281.jpg
 coverimage: /img/91b055ae26ae94066dc14511e79cc245.jpg
 headline: >-
-  Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Mauris convallis
-  ut nulla eget ornare.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis ut
+  nulla eget ornare.
 tags:
   - Classics
 books:
@@ -43,21 +43,20 @@ books:
   - aalink: 'https://www.goodreads.com/book/show/12985.The_Tempest'
     bookauthor: William Shakespeare
     description: >-
-      Putting romance onstage,*The Tempest*gives us a magician, Prospero, a
+      <p>Putting romance onstage, The Tempest, gives us a magician, Prospero, a
       former duke of Milan who was displaced by his treacherous brother,
       Antonio. Prospero is exiled on an island, where his only companions are
       his daughter, Miranda, the spirit Ariel, and the monster Caliban. When his
       enemies are among those caught in a storm near the island, Prospero turns
-      his power upon them through Ariel and other spirits.\
+      his power upon them through Ariel and other spirits.</p>
 
-      \
 
-      The characters exceed the roles of villains and heroes. Prospero seems
+      <p>The characters exceed the roles of villains and heroes. Prospero seems
       heroic, yet he enslaves Caliban and has an appetite for revenge. Caliban
       seems to be a monster for attacking Miranda, but appears heroic in
       resisting Prospero, evoking the period of colonialism during which the
       play was written. Miranda’s engagement to Ferdinand, the Prince of Naples
-      and a member of the shipwrecked party, helps resolve the drama.
+      and a member of the shipwrecked party, helps resolve the drama.</p>
     coverimage: /img/2.jpg
     genres:
       - Classics
@@ -71,6 +70,6 @@ books:
     templateKey: book-page
     title: The Tempest
 ---
-Cras **quis** eleifend tortor. In auctor enim aliquet est pulvinar, vel placerat urna auctor. Vivamus faucibus maximus magna eu tempus. Cras accumsan nisi at ligula semper, ac porttitor quam tincidunt. Sed scelerisque eleifend sem non viverra. Curabitur ut pharetra felis. Sed velit ligula, efficitur non accumsan quis, consequat ut lorem. Praesent vel fermentum massa, sit amet tincidunt felis. Nulla pellentesque accumsan posuere. Nullam diam lectus, fermentum sed ipsum id, pellentesque venenatis nunc. Nulla vestibulum volutpat diam, dapibus varius nunc pretium viverra. Vestibulum sed tincidunt ipsum.
+Cras quis eleifend tortor. In auctor enim aliquet est pulvinar, vel placerat urna auctor. Vivamus faucibus maximus magna eu tempus. Cras accumsan nisi at ligula semper, ac porttitor quam tincidunt. Sed scelerisque eleifend sem non viverra. Curabitur ut pharetra felis. Sed velit ligula, efficitur non accumsan quis, consequat ut lorem. Praesent vel fermentum massa, sit amet tincidunt felis. Nulla pellentesque accumsan posuere. Nullam diam lectus, fermentum sed ipsum id, pellentesque venenatis nunc. Nulla vestibulum volutpat diam, dapibus varius nunc pretium viverra. Vestibulum sed tincidunt ipsum.
 
 Duis ac turpis quis velit imperdiet tempus. Aliquam erat volutpat. Sed lectus quam, interdum sed lorem fringilla, placerat mattis arcu. Nullam vitae blandit diam, nec placerat eros. Curabitur vel dolor in est porttitor viverra. Proin justo nunc, maximus non dolor in, laoreet scelerisque massa. Sed tellus quam, rutrum sit amet finibus id, mattis sit amet est. Morbi maximus ex metus, vitae elementum nisl vestibulum vel. Donec nisl sapien, feugiat nec lorem id, vulputate imperdiet enim. In sed nulla dictum, gravida orci id, semper sapien. Fusce sed velit sed leo ullamcorper blandit. Praesent fringilla vel odio ac tempor. Suspendisse potenti.
