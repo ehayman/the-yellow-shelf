@@ -6,8 +6,8 @@ description: The Bard's greatest works
 featuredimage: /img/3397135lpw-3397291-article-teatro-jpg_3453196_660x281.jpg
 coverimage: /img/91b055ae26ae94066dc14511e79cc245.jpg
 headline: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis ut
-  nulla eget ornare.
+  Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Mauris convallis
+  ut nulla eget ornare.
 tags:
   - Classics
 books:
@@ -71,6 +71,6 @@ books:
     templateKey: book-page
     title: The Tempest
 ---
-Cras quis eleifend tortor. In auctor enim aliquet est pulvinar, vel placerat urna auctor. Vivamus faucibus maximus magna eu tempus. Cras accumsan nisi at ligula semper, ac porttitor quam tincidunt. Sed scelerisque eleifend sem non viverra. Curabitur ut pharetra felis. Sed velit ligula, efficitur non accumsan quis, consequat ut lorem. Praesent vel fermentum massa, sit amet tincidunt felis. Nulla pellentesque accumsan posuere. Nullam diam lectus, fermentum sed ipsum id, pellentesque venenatis nunc. Nulla vestibulum volutpat diam, dapibus varius nunc pretium viverra. Vestibulum sed tincidunt ipsum.
+Cras **quis** eleifend tortor. In auctor enim aliquet est pulvinar, vel placerat urna auctor. Vivamus faucibus maximus magna eu tempus. Cras accumsan nisi at ligula semper, ac porttitor quam tincidunt. Sed scelerisque eleifend sem non viverra. Curabitur ut pharetra felis. Sed velit ligula, efficitur non accumsan quis, consequat ut lorem. Praesent vel fermentum massa, sit amet tincidunt felis. Nulla pellentesque accumsan posuere. Nullam diam lectus, fermentum sed ipsum id, pellentesque venenatis nunc. Nulla vestibulum volutpat diam, dapibus varius nunc pretium viverra. Vestibulum sed tincidunt ipsum.
 
 Duis ac turpis quis velit imperdiet tempus. Aliquam erat volutpat. Sed lectus quam, interdum sed lorem fringilla, placerat mattis arcu. Nullam vitae blandit diam, nec placerat eros. Curabitur vel dolor in est porttitor viverra. Proin justo nunc, maximus non dolor in, laoreet scelerisque massa. Sed tellus quam, rutrum sit amet finibus id, mattis sit amet est. Morbi maximus ex metus, vitae elementum nisl vestibulum vel. Donec nisl sapien, feugiat nec lorem id, vulputate imperdiet enim. In sed nulla dictum, gravida orci id, semper sapien. Fusce sed velit sed leo ullamcorper blandit. Praesent fringilla vel odio ac tempor. Suspendisse potenti.
