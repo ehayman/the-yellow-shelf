@@ -9,7 +9,7 @@ coverimage: /img/jane-austen-9192819-1-402.jpg
 headline: >-
   Austen's novels are widely considered well ahead of their time - each one a
   perfect stew of biting wit, social commentary, and humor - all topped with a
-  bay leaf of irony.
+  delicious bay leaf of irony.
 tags:
   - Classics
   - Fiction
