@@ -2,14 +2,15 @@
 templateKey: blog-post
 title: Best Books by Jane Austen
 date: 2020-03-10T12:04:29.478Z
-description: A definitive ranking the beloved English novelist
+description: A definitive ranking of the beloved English novelist
 featuredimage: >-
   /img/7c84119a-8070-423e-9714-e4f8c10841fe-screen-shot-2018-04-20-at-84510-am.png
 coverimage: /img/jane-austen-9192819-1-402.jpg
+grayscalecoverimage: true
 headline: >-
-  Austen's novels are widely considered well ahead of their time - (almost) each
-  one a perfect stew of biting wit, social commentary, and humor - all topped
-  with a bay leaf of irony.
+  Austen's novels are widely considered well ahead of their time - each one a
+  perfect stew of biting wit, social commentary, and humor - all topped with a
+  delicious bay leaf of irony.
 tags:
   - Classics
   - Fiction
