@@ -141,6 +141,34 @@ books:
       or sense.
     templateKey: book-page
     title: Pride and Prejudice
+  - aalink: >-
+      https://www.amazon.com/Persuasion-Penguin-Classics-Jane-Austen/dp/0141439688/ref=sr_1_1?crid=24XYK2S0WOYCC&keywords=persuasion+penguin+classics&qid=1583841540&sprefix=persuasion+penguin+cl%2Caps%2C204&sr=8-1
+    bookauthor: Jane Austen
+    description: >-
+      Twenty-seven-year old Anne Elliot is Austen's most adult heroine. Eight
+      years before the story proper begins, she is happily betrothed to a naval
+      officer, Frederick Wentworth, but she precipitously breaks off the
+      engagement when persuaded by her friend Lady Russell that such a match is
+      unworthy. The breakup produces in Anne a deep and long-lasting regret.
+      When later Wentworth returns from sea a rich and successful captain, he
+      finds Anne's family on the brink of financial ruin and his own sister a
+      tenant in Kellynch Hall, the Elliot estate. All the tension of the novel
+      revolves around one question: Will Anne and Wentworth be reunited in their
+      love?
+    coverimage: /img/8.jpg
+    genres:
+      - Classics
+      - Fiction
+      - Romance
+    goodreads: '4.14'
+    numberofpages: 272
+    publishyear: 1814
+    quote: >-
+      I hate to hear you talk about all women as if they were fine ladies
+      instead of rational creatures. None of us want to be in calm waters all
+      our lives.
+    templateKey: book-page
+    title: Persuasion
 ---
 Vivamus in lacinia metus, eu mattis arcu. Aliquam gravida elit at nunc tincidunt semper. Aliquam porta nulla a tellus hendrerit, ac porta odio pulvinar. Aliquam id metus diam. Fusce sit amet purus purus. Etiam vel porta erat. Morbi quis sollicitudin ipsum. Vestibulum at tellus ac quam imperdiet vulputate. Ut non placerat nisi. Duis interdum elementum mi nec tempus.
 
