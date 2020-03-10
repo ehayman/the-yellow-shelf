@@ -43,6 +43,30 @@ books:
     quote: Life seems but a quick succession of busy nothings.
     templateKey: book-page
     title: Mansfield Park
+  - aalink: >-
+      https://www.amazon.com/Northanger-Abbey-Penguin-Classics-Austen/dp/0141439793/ref=sr_1_2?keywords=Northanger+Abbey&qid=1583840368&sr=8-2
+    bookauthor: Jane Austen
+    description: >-
+      Jane Austen's first novel—published posthumously in 1818—tells the story
+      of Catherine Morland and her dangerously sweet nature, innocence, and
+      sometime self-delusion. Though Austen's fallible heroine is repeatedly
+      drawn into scrapes while vacationing at Bath and during her subsequent
+      visit to Northanger Abbey, Catherine eventually triumphs, blossoming into
+      a discerning woman who learns truths about love, life, and the heady power
+      of literature. The satirical novel pokes fun at the gothic novel while
+      earnestly emphasizing caution to the female sex.
+    coverimage: /img/4.jpg
+    genres:
+      - Classics
+      - Fiction
+      - Romance
+      - Gothic
+    goodreads: '3.82'
+    numberofpages: 320
+    publishyear: 1817
+    quote: I cannot speak well enough to be unintelligible.
+    templateKey: book-page
+    title: Northanger Abbey
 ---
 Vivamus in lacinia metus, eu mattis arcu. Aliquam gravida elit at nunc tincidunt semper. Aliquam porta nulla a tellus hendrerit, ac porta odio pulvinar. Aliquam id metus diam. Fusce sit amet purus purus. Etiam vel porta erat. Morbi quis sollicitudin ipsum. Vestibulum at tellus ac quam imperdiet vulputate. Ut non placerat nisi. Duis interdum elementum mi nec tempus.
 
