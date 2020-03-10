@@ -86,6 +86,61 @@ books:
     quote: 'If I loved you less, I might be able to talk about it more.'
     templateKey: book-page
     title: Emma
+  - aalink: >-
+      https://www.amazon.com/Sense-Sensibility-Penguin-Classics-Austen/dp/0141439661/ref=sr_1_3?keywords=Sense+and+Sensibility&qid=1583840900&sr=8-3
+    bookauthor: Jane Austen
+    description: >-
+      Marianne Dashwood wears her heart on her sleeve, and when she falls in
+      love with the dashing but unsuitable John Willoughby she ignores her
+      sister Elinor's warning that her impulsive behaviour leaves her open to
+      gossip and innuendo. Meanwhile Elinor, always sensitive to social
+      convention, is struggling to conceal her own romantic disappointment, even
+      from those closest to her. Through their parallel experience of love—and
+      its threatened loss—the sisters learn that sense must mix with sensibility
+      if they are to find personal happiness in a society where status and money
+      govern the rules of love.
+    coverimage: /img/6.jpg
+    genres:
+      - Classics
+      - Fiction
+      - Romance
+    goodreads: '4.07'
+    numberofpages: 368
+    publishyear: 1808
+    quote: >-
+      Know your own happiness. You want nothing but patience- or give it a more
+      fascinating name, call it hope.
+    templateKey: book-page
+    title: Sense and Sensibility
+  - aalink: >-
+      https://www.amazon.com/Pride-Prejudice-Jane-Austen/dp/0141439513/ref=sr_1_3?crid=2Q48VF32NA1I8&keywords=pride+and+prejudice&qid=1583841253&sprefix=pride+and+p%2Caps%2C221&sr=8-3
+    bookauthor: Jane Austen
+    description: >-
+      Since its immediate success in 1813,*Pride and Prejudice*has remained one
+      of the most popular novels in the English language. Jane Austen called
+      this brilliant work "her own darling child" and its vivacious heroine,
+      Elizabeth Bennet, "as delightful a creature as ever appeared in print."
+      The romantic clash between the opinionated Elizabeth and her proud beau,
+      Mr. Darcy, is a splendid performance of civilized sparring. And Jane
+      Austen's radiant wit sparkles as her characters dance a delicate quadrille
+      of flirtation and intrigue, making this book the most superb comedy of
+      manners of Regency England.
+    coverimage: /img/7.jpg
+    genres:
+      - Classics
+      - Fiction
+      - Romance
+    goodreads: '4.26'
+    numberofpages: 480
+    publishyear: 1809
+    quote: >-
+      There are few people whom I really love, and still fewer of whom I think
+      well. The more I see of the world, the more am I dissatisfied with it; and
+      every day confirms my belief of the inconsistency of all human characters,
+      and of the little dependence that can be placed on the appearance of merit
+      or sense.
+    templateKey: book-page
+    title: Pride and Prejudice
 ---
 Vivamus in lacinia metus, eu mattis arcu. Aliquam gravida elit at nunc tincidunt semper. Aliquam porta nulla a tellus hendrerit, ac porta odio pulvinar. Aliquam id metus diam. Fusce sit amet purus purus. Etiam vel porta erat. Morbi quis sollicitudin ipsum. Vestibulum at tellus ac quam imperdiet vulputate. Ut non placerat nisi. Duis interdum elementum mi nec tempus.
 
