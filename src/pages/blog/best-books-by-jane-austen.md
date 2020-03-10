@@ -67,6 +67,25 @@ books:
     quote: I cannot speak well enough to be unintelligible.
     templateKey: book-page
     title: Northanger Abbey
+  - aalink: >-
+      https://www.amazon.com/Emma-Penguin-Classics-Jane-Austen/dp/0141439580/ref=sr_1_1?keywords=Emma+%28Penguin+Classics%29&qid=1583840753&sr=8-1
+    bookauthor: Jane Austen
+    description: >-
+      Emma Woodhouse is one of Austen's most captivating and vivid characters.
+      Beautiful, spoilt, vain and irrepressibly witty, Emma organizes the lives
+      of the inhabitants of her sleepy little village and plays matchmaker with
+      devastating effect.
+    coverimage: /img/5.jpg
+    genres:
+      - Classics
+      - Fiction
+      - Romance
+    goodreads: '4.00'
+    numberofpages: 512
+    publishyear: 1814
+    quote: 'If I loved you less, I might be able to talk about it more.'
+    templateKey: book-page
+    title: Emma
 ---
 Vivamus in lacinia metus, eu mattis arcu. Aliquam gravida elit at nunc tincidunt semper. Aliquam porta nulla a tellus hendrerit, ac porta odio pulvinar. Aliquam id metus diam. Fusce sit amet purus purus. Etiam vel porta erat. Morbi quis sollicitudin ipsum. Vestibulum at tellus ac quam imperdiet vulputate. Ut non placerat nisi. Duis interdum elementum mi nec tempus.
 
