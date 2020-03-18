@@ -156,7 +156,7 @@ books:
       tenant in Kellynch Hall, the Elliot estate. All the tension of the novel
       revolves around one question: Will Anne and Wentworth be reunited in their
       love?
-    coverimage: /img/6.jpg
+    coverimage: /img/7.jpg
     genres:
       - Classics
       - Fiction
