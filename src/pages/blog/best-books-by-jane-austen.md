@@ -33,7 +33,7 @@ books:
       values (of tradition, stability, retirement and faithfulness) it appears
       to endorse'. This new edition provides an accurate text based, for the
       first time since its original publication, on the first edition of 1814.
-    coverimage: /img/3.jpg
+    coverimage: /img/1.jpg
     genres:
       - Classics
       - Fiction
@@ -56,7 +56,7 @@ books:
       a discerning woman who learns truths about love, life, and the heady power
       of literature. The satirical novel pokes fun at the gothic novel while
       earnestly emphasizing caution to the female sex.
-    coverimage: /img/4.jpg
+    coverimage: /img/2.jpg
     genres:
       - Classics
       - Fiction
@@ -76,7 +76,7 @@ books:
       Beautiful, spoilt, vain and irrepressibly witty, Emma organizes the lives
       of the inhabitants of her sleepy little village and plays matchmaker with
       devastating effect.
-    coverimage: /img/5.jpg
+    coverimage: /img/3.jpg
     genres:
       - Classics
       - Fiction
@@ -100,7 +100,7 @@ books:
       its threatened loss—the sisters learn that sense must mix with sensibility
       if they are to find personal happiness in a society where status and money
       govern the rules of love.
-    coverimage: /img/6.jpg
+    coverimage: /img/4.jpg
     genres:
       - Classics
       - Fiction
@@ -126,7 +126,7 @@ books:
       Austen's radiant wit sparkles as her characters dance a delicate quadrille
       of flirtation and intrigue, making this book the most superb comedy of
       manners of Regency England.
-    coverimage: /img/7.jpg
+    coverimage: /img/5.jpg
     genres:
       - Classics
       - Fiction
@@ -156,7 +156,7 @@ books:
       tenant in Kellynch Hall, the Elliot estate. All the tension of the novel
       revolves around one question: Will Anne and Wentworth be reunited in their
       love?
-    coverimage: /img/8.jpg
+    coverimage: /img/6.jpg
     genres:
       - Classics
       - Fiction
