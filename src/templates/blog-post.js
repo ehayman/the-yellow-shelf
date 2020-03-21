@@ -14,6 +14,8 @@ export const BlogPostTemplate = ({
   tags,
   secondaryBody,
   featuredimage,
+  coverimage,
+  grayscalecoverimage,
   books,
   title,
   helmet,
@@ -34,14 +36,12 @@ export const BlogPostTemplate = ({
             <div className="post-content">
             <h3 className="post-headline" dangerouslySetInnerHTML={{ __html: headline }} />
             <div className="post-note">
-            <div className="post-note-img" style={{backgroundImage: 'url(' + featuredimage + ')'}}>
+            <div className={"post-note-img" + (grayscalecoverimage ? " grayscale" : "")} style={{backgroundImage: 'url(' + (coverimage.length ? coverimage : featuredimage) + ')'}}>
             </div>
             <PostContent className="post-note-copy copy" content={content} />
             </div>
             {booksArr && booksArr.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h2>Read</h2>
-                <h3>on our shelf this week</h3>
+              <div>
                 <ul className="post-book-wrapper">
                   {booksArr.map(book => (
                     <li key={book.title} className="post-book">
@@ -49,7 +49,7 @@ export const BlogPostTemplate = ({
                       <img src={book.coverimage.childImageSharp.fluid.src}></img>
                       </div>
                <div className="post-book-content">
-        
+                    <div className="post-book-content-inner">
                       <div className="post-book-content-header">
                       <h4 className="post-book-content-title">{book.title}</h4>
                       <div className="post-book-content-rating">
@@ -64,7 +64,7 @@ export const BlogPostTemplate = ({
                       </div>
                       </div>
                       <p className="post-book-content-author">By <span className="post-book-content-author-name">{book.bookauthor}</span></p>
-                      <p className="post-book-content-metadata"><span>{book.publishyear}</span><span>120 pages</span></p>
+                      <p className="post-book-content-metadata"><span>{book.publishyear}</span><span>{book.numberofpages} pages</span></p>
                       <div className="post-book-content-review" dangerouslySetInnerHTML={{ __html: book.description }} />
                       <div className="post-book-content-quote">
                         <div className="post-book-content-quote-icons">
@@ -83,6 +83,7 @@ export const BlogPostTemplate = ({
                     </li>
                   ))}
                 </ul>
+                      </div>
                       </div>
                     </li>
                   ))}
@@ -126,6 +127,8 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage ? post.frontmatter.featuredimage.childImageSharp.fluid.src : ''}
+        coverimage={post.frontmatter.coverimage ? post.frontmatter.coverimage.childImageSharp.fluid.src : ''}
+        grayscalecoverimage={post.frontmatter.grayscalecoverimage}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -172,6 +175,15 @@ export const pageQuery = graphql`
             }
           }
         }
+        coverimage {
+          childImageSharp {
+            fluid(maxWidth: 1200, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        grayscalecoverimage
+        articlecolor
         books {
           title
           bookauthor
@@ -188,6 +200,7 @@ export const pageQuery = graphql`
           aalink
           goodreads
           quote
+          numberofpages
         }
       }
     }

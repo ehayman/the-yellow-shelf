@@ -325,6 +325,10 @@ body {
             margin-right: $padding-huge;
             background-size: cover;
             flex-grow: 1;
+            background-position: center;
+            &.grayscale {
+                filter: grayscale(1);
+            }
         }
         &-copy {
             margin-top: $padding-small;
@@ -341,15 +345,16 @@ body {
             margin-right: -$padding;
         }
         &-img {
-            flex-grow: 3;
-            flex-basis: 0;
-            padding: $padding;
-        }
-        &-content {
             flex-grow: 4;
             flex-basis: 0;
-            padding: $padding-large;
+        }
+        &-content {
+            flex-grow: 5;
+            flex-basis: 0;
             background-color: #FFF8E3;
+            &-inner {
+                padding: $padding-large;
+            }
             &-header {
                 display: flex;
                 justify-content: space-between;
@@ -421,6 +426,7 @@ body {
                 &-text {
                     z-index: 1;
                     padding: 25px 0 0 35px;
+                    min-height: 93px;
                 }
             }
             &-genres {
